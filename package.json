@@ -1,0 +1,20 @@
+{
+  "name": "dragon.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marsDev10/dragon.com.git"
+  },
+  "keywords": [],
+  "author": "MarsDev <themarswtf@outlook.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marsDev10/dragon.com/issues"
+  },
+  "homepage": "https://github.com/marsDev10/dragon.com#readme"
+}
