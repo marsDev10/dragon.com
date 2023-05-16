@@ -2737,10 +2737,11 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
     align-items: center;
 }
 .main-header-title {
-    color: #170a07;
+    color: #003462;
 }
 .main-header-sub-title {
-    color: #170a07;
+    color: #003462;
+    font-size: 20px;
 }
 .carousel {
 	width: 100%;
@@ -2791,13 +2792,13 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
     margin-bottom: 9px;
 }
 .carousel-cell.is-selected .main-header-carousel-nav i{
-    color: #61dcce;
+    color: #FF6C0E;
 }
 .main-header-carousel-nav h5{
 	color: #fff;
 }
 .carousel-cell.is-selected .main-header-carousel-nav h5{
-	color: #0b0b0b;
+	color: #003462;
 }
 .main-header-carousel-nav p{
 	color: #e7edef;
