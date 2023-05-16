@@ -2716,12 +2716,12 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 .focus-reset:focus {outline: none !important;box-shadow: none !important;}
 
 #coodiv-header.moon-edition {
-    background: #ffffff !important;
+    background: #00BDCD  !important;
 }
 .main-header-top-title {
     text-transform: uppercase;
-    background: #ffeb3b;
-    color: #5b5415;
+    background: #FF6C0E;
+    color: white;
     font-size: 11px;
     padding: 0 18px;
     border-radius: 20px;
@@ -4442,7 +4442,7 @@ table.levels-of-managment-table.table-striped tbody tr:nth-of-type(odd) {
     z-index: -1;
     right: 0;
     left: 0;
-	/* opacity: 0.63; */
+	opacity: 0.83;
 }
 .wordpress-domain-saearching .domain-search-form {
 	
@@ -4629,8 +4629,8 @@ table.levels-of-managment-table.table-striped tbody tr:nth-of-type(odd) {
     padding: 5px 5px;
 }
 .main-header-btn {
-    background-color: #FED317;
-    color: #111111;
+    background-color: #FF6C0E;
+    color: white;
     border-radius: 4px;
     position: relative;
     height: 46px;
@@ -4639,12 +4639,12 @@ table.levels-of-managment-table.table-striped tbody tr:nth-of-type(odd) {
     justify-content: center;
     transition: all 0.4s;
     width: max-content;
-    padding: 0 35px;
+    padding: 0 65px;
     padding-inline: 35px;
 }
 .main-header-btn:hover {
-	background-color: #f7cc13;
-    color: #111111;
+	background-color: white;
+    color: #FF6C0E;
 }
 .main-header-btn i {
     opacity: 0;
