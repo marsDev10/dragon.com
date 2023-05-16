@@ -21,6 +21,8 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@coodiv" />
 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
         <!-- Bootstrap , fonts & icons -->
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="icons-pack/fontawesome-5/css/all.css" rel="stylesheet" />
@@ -407,7 +409,11 @@
                             <h3 class="coodiv-text-4 font-weight-bold">WooCommerce offers powerful online stores.</h3>
                             <p class="content_text_author_description_p">Managed WordPress Ecommerce offers hassle-free online store setup, built-in speed and performance, plus free access to over 40 WooCommerce extensions.</p>
                             <p class="content_text_author_description_p">Build client sites quickly with the latest version of WordPress installed. From there you can start from scratch or save time picking from dozens of flexible, editable themes.</p>
-                            <a href="wordpress.html" class="btn btn-dark coodiv-text-11 mt-10">Shop now</a>
+                            <!-- <a href="wordpress.html" class="btn btn-dark coodiv-text-11 mt-10">Shop now</a> -->
+                                   <!-- Button to trigger the modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                Contactanos
+                            </button>
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
@@ -433,7 +439,11 @@
                             <p class="content_text_author_description_p">
                             All plans come with free standard hosting support. Optional paid server management services include fully managed support and task-based services.
                             </p>
-                            <a href="servers.html" class="btn btn-dark coodiv-text-11 mt-10">Configure your Server</a>
+                            <!-- Button to trigger the modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                Contactanos
+                            </button>
+                            <!-- <a href="servers.html" class="btn btn-dark coodiv-text-11 mt-10">Configure your Server</a> -->
                         </div>
                     </div>
                 </div>
@@ -449,7 +459,10 @@
                             <p class="content_text_author_description_p">
                             With our latest optimized server hardware, you'll get faster sites — up to nearly 40% average improvement in overall server response times*.
                             </p>
-                            <a href="dedicated.html" class="btn btn-dark coodiv-text-11 mt-10">See plans and pricing</a>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                Contactanos
+                            </button>
+                            <!-- <a href="dedicated.html" class="btn btn-dark coodiv-text-11 mt-10">See plans and pricing</a> -->
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
@@ -1177,7 +1190,53 @@
                 </div>
             </div>
         </section>
-
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 99999;">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-8">
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Nombre</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Correo</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Telefono</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                  <label for="comments">Comentarios</label>
+                  <textarea class="form-control" id="comments" rows="3" placeholder="Enter your comments"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="submitForm">Enviar</button>
+                  </div>
+              </form>
+            </div>
+            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center border" >
+                <h2> Bot </h2>
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.example.com" alt="QR Code" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
         <!-- jquery -->
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
