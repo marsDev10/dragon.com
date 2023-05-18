@@ -153,13 +153,13 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 #coodiv-header.subpages-header-min .bg_overlay_header img{height:auto;width:inherit;}
 #coodiv-header .navbar{z-index:10;position:fixed;top:0;width:100%;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
 .header-top-height{min-height:100px;}
-#coodiv-header .navbar.fixed-header-layout.top-header-fixed{position:fixed;width:100%;top:0px;padding:1.2rem 1rem;z-index:99999;background:#ffffff;-webkit-box-shadow:0 9px 18px rgba(0, 0, 0, 0.08);box-shadow:0 7px 17px rgba(0, 0, 0, 0.04);opacity:1;left:0;right:0;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
-@media (min-width:768px){#coodiv-header .top-header-fixed .navbar-nav .nav-link{color:#4e585d;}
+#coodiv-header .navbar.fixed-header-layout.top-header-fixed{position:fixed;width:100%;top:0px;padding:1.2rem 1rem;z-index:99999;background:#ffffff;-webkit-box-shadow:0 9px 18px rgba(0, 0, 0, 0.08);box-shadow:0 7px 17px rgba(0, 52, 98, 0.20);opacity:1;left:0;right:0;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
+@media (min-width:768px){#coodiv-header .top-header-fixed .navbar-nav .nav-link{color:#003462;}
 #coodiv-header .top-header-fixed .navbar-nav .active .nav-link, #coodiv-header .top-header-fixed .navbar-nav .nav-link:hover{color:#003462;}
-#coodiv-header .top-header-fixed .navbar-nav .nav-link:before{background:#81959e;}
-#coodiv-header .top-header-fixed .navbar-nav .nav-link:after{background:#81959e;}
+#coodiv-header .top-header-fixed .navbar-nav .nav-link:before{background:#7F8A9A;}
+#coodiv-header .top-header-fixed .navbar-nav .nav-link:after{background:#00A9BA;}
 }
-#coodiv-header .top-header-fixed .header-user-info-coodiv li span{color:#a5b7bf;}
+#coodiv-header .top-header-fixed .header-user-info-coodiv li span{color:#FF6C0E;}
 #coodiv-header .navbar.top-header-fixed-btom0{top:-120px;}
 #coodiv-header .navbar-brand img{max-height:35px;}
 #coodiv-navbar-header {padding: 2rem 1rem;}
@@ -167,8 +167,8 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 #coodiv-navbar-header .navbar-nav .nav-link{font-weight: 400;color: white;font-size: 14px;line-height: 24px;padding-right: 0.9rem;padding-left: 0.9rem;position: relative;}
 @-moz-document url-prefix(){#coodiv-navbar-header .navbar-nav .nav-link{font-weight:500;}}
 #coodiv-navbar-header .navbar-nav .active .nav-link,#coodiv-navbar-header .navbar-nav .nav-link:hover{color:white;}
-#coodiv-navbar-header .navbar-nav .nav-link:after{content:'';position:absolute;width:4px;height:4px;background:#80daaf;border-radius:100%;left:0;right:0;margin:auto;bottom:3px;opacity:0;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
-#coodiv-navbar-header .navbar-nav .nav-link:before{content:'';position:absolute;width:4px;height:4px;background:#80daaf;border-radius:100%;right:0;left:0;margin:auto;bottom:3px;opacity:0;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
+#coodiv-navbar-header .navbar-nav .nav-link:after{content:'';position:absolute;width:4px;height:4px;background:#FF6C0E;border-radius:100%;left:0;right:0;margin:auto;bottom:3px;opacity:0;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
+#coodiv-navbar-header .navbar-nav .nav-link:before{content:'';position:absolute;width:4px;height:4px;background:#FF6C0E;border-radius:100%;right:0;left:0;margin:auto;bottom:3px;opacity:0;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
 #coodiv-navbar-header .navbar-nav .nav-link:hover::after, #coodiv-navbar-header .navbar-nav .active .nav-link:after{left:-7px;opacity:1;}
 #coodiv-navbar-header .navbar-nav .nav-link:hover::before, #coodiv-navbar-header .navbar-nav .active .nav-link:before{right:-7px;opacity:1;}
 }
@@ -2741,7 +2741,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 }
 .main-header-sub-title {
     color: #003462;
-    font-size: 20px;
+    font-size: 25px;
 }
 .carousel {
 	width: 100%;
@@ -2765,9 +2765,9 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
     position: absolute;
     background-color: #ffffff;
     padding: 50px 35px;
-    -webkit-box-shadow: 0 0px 30px rgb(0 0 0 / 10%);
-    -moz-box-shadow: 0 0px 30px rgb(0 0 0 / 10%);
-    box-shadow: 0 0px 30px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0 0px 30px rgb(0 52 98 / 30%);
+    -moz-box-shadow: 0 0px 30px rgb(0 52 98 / 30%);
+    box-shadow: 0 0px 30px rgb(0 52 98 / 30%);
     z-index: -1;
     transition: all 0.3s ease 0.0s;
     transform: perspective(500px) translateY(-80px) rotateX(-20deg) rotateY(0deg);
@@ -2804,7 +2804,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 	color: #e7edef;
 }
 .carousel-cell.is-selected .main-header-carousel-nav p{
-    color: #6d7b82;
+    color: #676974;
 }
 .main-header-carousel-nav ul{
     padding: 0;
@@ -2822,7 +2822,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 	color: #fff;
 }
 .carousel-cell.is-selected .main-header-carousel-nav ul li{
-    color: #96b0bc;
+    color: #676974;
 }
 .main-header-carousel-nav ul li b{
     margin-right: 5px;
@@ -4443,7 +4443,7 @@ table.levels-of-managment-table.table-striped tbody tr:nth-of-type(odd) {
     z-index: -1;
     right: 0;
     left: 0;
-	opacity: 0.83;
+	opacity: 0.73;
 }
 .wordpress-domain-saearching .domain-search-form {
 	
