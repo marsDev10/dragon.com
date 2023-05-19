@@ -4966,3 +4966,61 @@ a.mas-demo-btn:hover {
 body {
     font-family: 'Montserrat', sans-serif !important;
 }
+
+.border-container-qr {
+    padding: .35rem;
+    border: .5px solid #FFF;
+    border-radius: 1rem;
+    animation: color-change 6s infinite;
+    animation-direction: normal;
+}
+.border-container-qr img {
+    width: 200px;
+    animation: size-change 6s infinite;
+    animation-direction: normal;
+}
+
+@keyframes size-change {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes color-change {
+    0% {
+        border-color: #FFF;
+        background-color: #FFF;
+
+    }
+    20% {
+        border-color: #00BDCD;
+        background-color: #00BDCD;
+        
+    }
+
+    40% {
+        border-color: #FFF;
+        background-color: #FFF;
+    }
+
+    60% {
+        border-color: #00BDCD;
+        background-color: #00BDCD;
+    }
+    80% {
+        border-color: #FFF;
+        background-color: #FFF;
+    }
+
+    100% {
+        border-color: #00BDCD;
+        background-color: #00BDCD;
+    }
+}
