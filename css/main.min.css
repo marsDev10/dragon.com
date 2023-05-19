@@ -681,7 +681,7 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 .carousel-nav-customers-text .carousel-cell .carousel-customrs-holder .customrs-icons.tw{bottom:-12px;left:0;right:0;margin:auto;background:#4e9edd;}
 .carousel-nav-customers-text .carousel-cell .carousel-customrs-holder .customrs-icons.wb{bottom:-4px;right:-2px;background:#7bc144;}
 .main-customers-text-about-us{text-align:center;max-width:600px;margin:auto;position:relative;padding-top:60px;}
-.main-customers-text-about-us:after{content:"\f10d";position:absolute;top:-6px;font-size:36px;left:0;right:0;color:#7565f7;margin:auto;font-family:"Font Awesome 5 pro";font-weight:900;}
+/* .main-customers-text-about-us:after{content:"Experimenta Una Atención Personalizada";position:absolute;top:-16px;font-size:36px;left:0;right:0;color:#7565f7;margin:auto;font-family:"Montserrat";font-weight:900;} */
 .main-customers-text-about-us h5{position:relative;color:#4a4477;font-weight:bold;margin:0;padding:0;font-size:22px;margin-bottom:10px;letter-spacing:1px;}
 .main-customers-text-about-us p{color:#737988;font-size:15px;font-weight:400;line-height:23px;padding:8px 30px;}
 .main-customers-text-about-us span{font-weight:100;font-size:13px;}
