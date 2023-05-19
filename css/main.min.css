@@ -139,7 +139,7 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 #toTop{position: fixed;bottom: 30px;right: 36px;cursor: pointer;display: none;border-radius: 45px;background: #161d23;z-index: 4;border: #161d23;color: #fff;-webkit-transition: all 0s ease-in-out;-moz-transition: all 0s ease-in-out;-o-transition: all 0s ease-in-out;-ms-transition: all 0s ease-in-out;transition: ba 0s ease-in-out;opacity: 0.6;width: 40px;height: 40px;padding: 0 !important;line-height: 40px;font-size: 14px;}
 .title-default-coodiv{text-transform:uppercase;font-weight:bold;font-size:29px;letter-spacing:1px;margin-bottom:30px;text-align:center;font-family:'Basier Circle', sans-serif;color:#170B35;}
 .title-default-coodiv span{display:block;text-transform:capitalize;font-weight:500;letter-spacing:0;margin-bottom:10px;margin-top:10px;font-size:15px;line-height:26px;color:#66747b;}
-.title-default-coodiv-two{color:#33334d;font-family:'Basier Circle', sans-serif;font-size:24px;text-transform:capitalize;text-align:center;}
+.title-default-coodiv-two{color:#33334d;font-family:'Montserrat', sans-serif;font-size:24px;text-transform:capitalize;text-align:center;}
 .title-default-coodiv-two span{display: block;font-size: 15px;line-height: 26px;max-width: 800px;margin: auto;margin-top: 15px;color: #88a1ad;font-family: 'Basier Circle', sans-serif;}
 .title-default-coodiv-tree{color:#81a2f8;font-size:15px;text-align:center;}
 .title-default-coodiv-tree span{display:block;margin-top:12px;color:#05032b;font-size:30px;font-weight:bold;}
@@ -2896,7 +2896,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 }
 .title-default-coodiv-two {
     color: #25252a;
-    font-family: 'Basier Circle', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     text-transform: capitalize;
     text-align: center;
@@ -2914,7 +2914,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
     max-width: 800px;
     margin: auto;
     color: #42525a;
-    font-family: 'Basier Circle', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     letter-spacing: 0;
 }
@@ -2979,7 +2979,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
     overflow: hidden;
 }
 .section-product-introduction-image-wrapper .section-product-introduction-background{
-    background: #88f6ec;
+    background: #00BDCD;
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
     border-radius: 24px;
