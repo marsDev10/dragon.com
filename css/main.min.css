@@ -136,7 +136,7 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 .f-size16{font-size:16px !important;}
 .f-size12{font-size:12px !important;}
 .overflow-hidden{overflow:hidden;}
-#toTop{position: fixed;bottom: 30px;right: 36px;cursor: pointer;display: none;border-radius: 45px;background: #161d23;z-index: 4;border: #161d23;color: #fff;-webkit-transition: all 0s ease-in-out;-moz-transition: all 0s ease-in-out;-o-transition: all 0s ease-in-out;-ms-transition: all 0s ease-in-out;transition: ba 0s ease-in-out;opacity: 0.6;width: 40px;height: 40px;padding: 0 !important;line-height: 40px;font-size: 14px;}
+#toTop{position: fixed;bottom: 85px;right: 36px;cursor: pointer;display: none;border-radius: 45px;background: #161d23;z-index: 4;border: #161d23;color: #fff;-webkit-transition: all 0s ease-in-out;-moz-transition: all 0s ease-in-out;-o-transition: all 0s ease-in-out;-ms-transition: all 0s ease-in-out;transition: ba 0s ease-in-out;opacity: 0.6;width: 40px;height: 40px;padding: 0 !important;line-height: 40px;font-size: 14px;}
 .title-default-coodiv{text-transform:uppercase;font-weight:bold;font-size:29px;letter-spacing:1px;margin-bottom:30px;text-align:center;font-family:'Basier Circle', sans-serif;color:#170B35;}
 .title-default-coodiv span{display:block;text-transform:capitalize;font-weight:500;letter-spacing:0;margin-bottom:10px;margin-top:10px;font-size:15px;line-height:26px;color:#66747b;}
 .title-default-coodiv-two{color:#33334d;font-family:'Montserrat', sans-serif;font-size:24px;text-transform:capitalize;text-align:center;}
@@ -1059,6 +1059,32 @@ body.fourth-color-styles #coodiv-header{background:#00BCD4;background:-moz-linea
 }
 @media (max-width:425px){.our-services-coresol-box{width:230px;}}
 
+/* Estilos para el icono flotante de whatsapp */
+
+.whatsapp-icon{
+    position: fixed;
+    bottom: 145px;
+    right: 35px;
+    z-index: 9999;
+    display: block;
+    width: 50px;
+    height: 50px;
+    /* background-color: #25d366; */
+    border-radius: 50%;
+    text-align: center;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); */
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-icon img{
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+}
+
+.whatsapp-icon:hover{
+    transform: scale(1.1);
+}
 
 /* additional and updates styles */
 
