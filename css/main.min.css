@@ -2707,7 +2707,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 .coodiv-text-3.coodiv-lh-reset::before{content:'';display:block;height:0;width:0;margin-top:calc((1 - 1.31) * .5em)}
 .coodiv-text-3.coodiv-lh-reset::after{content:'';display:block;height:0;width:0;margin-bottom:calc((1 - 1.31) * .5em)}
 
-.coodiv-text-4{font-size:2.25rem;letter-spacing:-1.2px;line-height:1.3}
+.coodiv-text-4{font-size:2.25rem;letter-spacing:-1.2px;line-height:1.3;color: #003462;}
 @media(max-width:1200px){.coodiv-text-4{font-size:calc(1.35rem + 1.2vw)}}
 .coodiv-text-4.coodiv-lh-reset::before{content:'';display:block;height:0;width:0;margin-top:calc((1 - 1.4) * .5em)}
 .coodiv-text-4.coodiv-lh-reset::after{content:'';display:block;height:0;width:0;margin-bottom:calc((1 - 1.4) * .5em)}
@@ -2962,6 +2962,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 }
 .content_text_author_description_p {
     font-size: 15px;
+    color: #383B42;
     font-weight: 300;
     margin-bottom: 20px;
 }
