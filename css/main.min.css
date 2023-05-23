@@ -5023,12 +5023,13 @@ body {
     animation-direction: normal;
 }
 .border-container-qr img {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     animation: size-change 6s infinite;
     animation-direction: normal;
 }
 
-@keyframes size-change {
+/* @keyframes size-change {
     0% {
         transform: scale(1);
     }
@@ -5039,7 +5040,7 @@ body {
         transform: scale(1);
     }
 }
-
+ */
 
 @keyframes color-change {
     0% {
