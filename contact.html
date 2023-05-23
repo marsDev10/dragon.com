@@ -30,6 +30,9 @@
     <!-- main css file -->
     <link href="css/main.min.css" rel="stylesheet" />
 
+    <script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdLk7EUAAAAAEWHuB2tabMmlxQ2-RRTLPHEGe9Y"></script>
+
 </head>
 
 <body><!-- start body -->
@@ -55,6 +58,12 @@
     <!-- end preloader -->
 
 	<div id="coodiv-header" class="d-flex mx-auto flex-column subpages-header moon-edition">
+
+         <!-- Icono whatsapp flotante -->
+         <a href="https://dcem.mx/mxr5" target="_blank" class="whatsapp-icon">
+            <img src="img/WhatsApp.png">
+        </a>
+        
         <div class="bg_overlay_header">
             <div id="particles-bg"></div>
             <div class="cloud-bg"></div>
@@ -125,6 +134,7 @@
         </nav>
 
         <main class="container mt-25">
+            
             <div class="row">
                 <div class="col-md-5 pt-15">
 				    <span class="main-header-top-title">¿tienes preguntas acerca de DragonCEM?</span>
@@ -189,6 +199,19 @@
 
                     </form>
                     <!-- end form -->
+                    <script>
+                        $('#newLead').submit(function(event) {
+                            event.preventDefault();
+                            var email = $('#email').val();
+                            grecaptcha.ready(function() {
+                                grecaptcha.execute('6LeTJyomAAAAAB-x0J8d73sy3lQD_q3HI6InY63g', {action: 'mailer'}).then(function(token) {
+                                    $('#newLead').prepend('<input type="hidden" name="token" value="' + token + '">');
+                                    $('#newLead').prepend('<input type="hidden" name="action" value="mailer">');
+                                    $('#newLead').unbind('submit').submit();
+                                });;
+                            });
+                      });
+                    </script>
                 </div>
             </div>
 
