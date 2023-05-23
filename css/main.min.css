@@ -136,11 +136,11 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 .f-size16{font-size:16px !important;}
 .f-size12{font-size:12px !important;}
 .overflow-hidden{overflow:hidden;}
-#toTop{position: fixed;bottom: 30px;right: 36px;cursor: pointer;display: none;border-radius: 45px;background: #161d23;z-index: 4;border: #161d23;color: #fff;-webkit-transition: all 0s ease-in-out;-moz-transition: all 0s ease-in-out;-o-transition: all 0s ease-in-out;-ms-transition: all 0s ease-in-out;transition: ba 0s ease-in-out;opacity: 0.6;width: 40px;height: 40px;padding: 0 !important;line-height: 40px;font-size: 14px;}
+#toTop{position: fixed;bottom: 85px;right: 36px;cursor: pointer;display: none;border-radius: 45px;background: #161d23;z-index: 4;border: #161d23;color: #fff;-webkit-transition: all 0s ease-in-out;-moz-transition: all 0s ease-in-out;-o-transition: all 0s ease-in-out;-ms-transition: all 0s ease-in-out;transition: ba 0s ease-in-out;opacity: 0.6;width: 40px;height: 40px;padding: 0 !important;line-height: 40px;font-size: 14px;}
 .title-default-coodiv{text-transform:uppercase;font-weight:bold;font-size:29px;letter-spacing:1px;margin-bottom:30px;text-align:center;font-family:'Basier Circle', sans-serif;color:#170B35;}
 .title-default-coodiv span{display:block;text-transform:capitalize;font-weight:500;letter-spacing:0;margin-bottom:10px;margin-top:10px;font-size:15px;line-height:26px;color:#66747b;}
-.title-default-coodiv-two{color:#33334d;font-family:'Montserrat', sans-serif;font-size:24px;text-transform:capitalize;text-align:center;}
-.title-default-coodiv-two span{display: block;font-size: 15px;line-height: 26px;max-width: 800px;margin: auto;margin-top: 15px;color: #88a1ad;font-family: 'Basier Circle', sans-serif;}
+.title-default-coodiv-two{color:#003462;font-family:'Montserrat', sans-serif;font-size:24px;text-transform:capitalize;text-align:center;}
+.title-default-coodiv-two span{display: block;font-size: 15px;line-height: 26px;max-width: 800px;margin: auto;margin-top: 15px;color: #003462;font-family: 'Basier Circle', sans-serif;}
 .title-default-coodiv-tree{color:#81a2f8;font-size:15px;text-align:center;}
 .title-default-coodiv-tree span{display:block;margin-top:12px;color:#05032b;font-size:30px;font-weight:bold;}
 .preloader{position:fixed;left:0px;top:0px;width:100%;height:100%;z-index:9999;background:#fff;}
@@ -649,8 +649,8 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 .how-it-works-box{-webkit-box-shadow: 0 9px 18px rgb(0 0 0 / 1%);transition: all 0.2s;box-shadow: 0 3px 27px rgb(0 0 0 / 1%);padding: 51px 35px;text-align: center;border-radius: 15px;background: #fff;margin: 20px 25px;position: relative;z-index: 1; border: solid #00BDCD 3px;}
 .how-it-works-box:hover{transform: translateY(-15px);}
 .how-it-works-box i:before{font-size:45px;}
-.how-it-works-box h5{position: relative;color: #1c1d1f;font-weight: bold;margin: 0;padding: 0;font-size: 24px;margin-bottom: 10px;margin-top: 15px;}
-.how-it-works-box p{color: #5b6171;font-size: 14px;font-weight: 400;line-height: 28px;letter-spacing: 0.1px;}
+.how-it-works-box h5{position: relative;color: #003462;font-weight: bold;margin: 0;padding: 0;font-size: 24px;margin-bottom: 10px;margin-top: 15px;}
+.how-it-works-box p{color: #383B42;font-size: 14px;font-weight: 400;line-height: 28px;letter-spacing: 0.1px;}
 .how-it-work-section-row [class^="col-md-"]:nth-child(1) .how-it-works-box i:before{color:#fe5152;}
 .how-it-work-section-row [class^="col-md-"]:nth-child(2) .how-it-works-box i:before{color:#ef9e30;}
 .how-it-work-section-row [class^="col-md-"]:nth-child(3) .how-it-works-box i:before{color:#2ab8ae;}
@@ -1059,6 +1059,32 @@ body.fourth-color-styles #coodiv-header{background:#00BCD4;background:-moz-linea
 }
 @media (max-width:425px){.our-services-coresol-box{width:230px;}}
 
+/* Estilos para el icono flotante de whatsapp */
+
+.whatsapp-icon{
+    position: fixed;
+    bottom: 145px;
+    right: 35px;
+    z-index: 9999;
+    display: block;
+    width: 50px;
+    height: 50px;
+    /* background-color: #25d366; */
+    border-radius: 50%;
+    text-align: center;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); */
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-icon img{
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+}
+
+.whatsapp-icon:hover{
+    transform: scale(1.1);
+}
 
 /* additional and updates styles */
 
@@ -2681,7 +2707,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 .coodiv-text-3.coodiv-lh-reset::before{content:'';display:block;height:0;width:0;margin-top:calc((1 - 1.31) * .5em)}
 .coodiv-text-3.coodiv-lh-reset::after{content:'';display:block;height:0;width:0;margin-bottom:calc((1 - 1.31) * .5em)}
 
-.coodiv-text-4{font-size:2.25rem;letter-spacing:-1.2px;line-height:1.3}
+.coodiv-text-4{font-size:2.25rem;letter-spacing:-1.2px;line-height:1.3;color: #003462;}
 @media(max-width:1200px){.coodiv-text-4{font-size:calc(1.35rem + 1.2vw)}}
 .coodiv-text-4.coodiv-lh-reset::before{content:'';display:block;height:0;width:0;margin-top:calc((1 - 1.4) * .5em)}
 .coodiv-text-4.coodiv-lh-reset::after{content:'';display:block;height:0;width:0;margin-bottom:calc((1 - 1.4) * .5em)}
@@ -2895,7 +2921,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 	opacity: 1;
 }
 .title-default-coodiv-two {
-    color: #25252a;
+    color: #003462;
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     text-transform: capitalize;
@@ -2913,7 +2939,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
     line-height: 26px;
     max-width: 800px;
     margin: auto;
-    color: #42525a;
+    color: #383B42;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     letter-spacing: 0;
@@ -2936,6 +2962,7 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 }
 .content_text_author_description_p {
     font-size: 15px;
+    color: #383B42;
     font-weight: 300;
     margin-bottom: 20px;
 }
