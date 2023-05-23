@@ -733,8 +733,8 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 .hosting-plan-row{padding-left:0;}
 .box-features-one {text-align: left;padding: 15px;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;cursor: pointer;border-radius: 10px;}
 .box-features-one i{font-size: 30px;color: #171718;width: 64px;height: 64px;padding: 12px;background: #f0f2f4;display: -webkit-flex;display: -moz-box;display: flex;-webkit-justify-content: center;-moz-box-pack: center;justify-content: center;-webkit-align-items: center;-moz-box-align: center;align-items: center;-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;margin-bottom: 15px;	}
-.box-features-one h5{color: #2e2f38;font-weight: 700;font-size: 18px;letter-spacing: 0.5px;margin: auto;margin-bottom: 7px;margin-top: 6px;min-height: 45px;}
-.box-features-one p{color: #6d7a81;font-size: 15px;font-weight: 400;line-height: 26px;}
+.box-features-one h5{color: #003462;font-weight: 700;font-size: 18px;letter-spacing: 0.5px;margin: auto;margin-bottom: 7px;margin-top: 6px;min-height: 45px;}
+.box-features-one p{color: #383B42;font-size: 15px;font-weight: 400;line-height: 26px;}
 .with-top-border{border-top:1px solid #edeff2;}
 .questions-box{}
 .questions-box .questions-title{color:#965bde;font-weight:600;margin:0;padding:0;font-size:15px;font-family:'Basier Circle', sans-serif;margin-bottom:15px;position:relative;box-shadow:none;outline:none;}
