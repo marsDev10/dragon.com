@@ -21,6 +21,7 @@ $(function() {
 
 			$('#name').val('');
 			$('#email').val('');
+			$('#tel').val('');
 			$('#message').val('');
 		})
 		.fail(function(data) {

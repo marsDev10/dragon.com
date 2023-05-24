@@ -3,6 +3,7 @@
         $name = strip_tags(trim($_POST["name"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+        $phone = trim($_POST["tel"]);
         $message = trim($_POST["message"]);
 
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -10,12 +11,13 @@
             echo "Oops! There was a problem with your submission. Please complete the form and try again.";
             exit;
         }
-        $recipient = "nedjai.mohamed@coodiv.net";
+        $recipient = "lalfaro@dragoncem.com";
 
         $subject = "New contact from $name";
 
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
+        $email_content .= "Telefono: $phone\n\n";
         $email_content .= "Message:\n$message\n";
 
         $email_headers = "From: $name <$email>";
