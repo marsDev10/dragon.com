@@ -4681,6 +4681,7 @@ table.levels-of-managment-table.table-striped tbody tr:nth-of-type(odd) {
     background-color: #FF6C0E;
     color: white;
     border-radius: 4px;
+    border: none;
     position: relative;
     height: 46px;
     display: flex;
@@ -4694,6 +4695,7 @@ table.levels-of-managment-table.table-striped tbody tr:nth-of-type(odd) {
 .main-header-btn:hover {
 	background-color: white;
     color: #FF6C0E;
+    border: solid 2px #FF6C0E;
 }
 .main-header-btn i {
     opacity: 0;
