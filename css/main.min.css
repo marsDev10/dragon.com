@@ -5100,3 +5100,18 @@ body {
     width: 100%;
     max-width: 100px;
 }
+
+.faq-img {
+    width: 400px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .flex-column-faq {
+        display: flex;
+        flex-direction: column;
+    }
+    .faq-img {
+        width: 200px;
+    }
+}
