@@ -58,9 +58,12 @@
     $para = 'lalfaro@dragoncem.com';
 
     mail($para, $asunto, utf8_decode($message), $header);
-    echo '<script type="text/javascript">
-    alert("Lead registrado correctamente.");
-    window.location.href="thanks.html";
-    </script>'; 
+    // echo '<script type="text/javascript">
+    // alert("Lead registrado correctamente.");
+    // window.location.href="thanks.html";
+    // </script>'; 
+
+    header("Location: thanks.html");
+    exit();
 
 ?>
