@@ -1,7 +1,7 @@
 $(function() {
 
-	var form = $('#ajax-contact');
-	var formMessages = $('#form-messages');
+	var form = $('#ajax-contact-modal');
+	var formMessages = $('#form-messages-modal');
 
 	$(form).submit(function(e) {
 		e.preventDefault();

@@ -858,7 +858,7 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 .form-contain-home textarea {width: 100%;padding: 0 20px 0;font-weight: 600;font-size: 13px;outline: none;border: 0;min-height: 120px;outline: none;padding-top: 13px;margin-bottom: 20px;box-shadow: 0 0 0 2px #e6e8ec inset;border-radius: 25px;}
 #form-messages.error{padding:13px 20px;background:#fddddb;color:#c5746f;font-size:16px;border-radius:3px;border-left:3px solid #F44336;width:100%;margin:0 15px 30px;}
 #form-messages.success{padding:13px 20px;background:#defddb;color:#6fc57e;font-size:16px;border-radius:3px;border-left:3px solid #53f436;margin:0 15px 30px;}
-.form-contain-home .btn-holder-contect button{width:130px;height:40px;border:0;background:#00d463;color:#fff;font-family:'Basier Circle', sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:3px;line-height:40px;cursor:pointer;outline:none;border-radius:50px;font-size:13px;margin:0 15px;}
+.form-contain-home .btn-holder-contect button{width:130px;height:40px;border:0;background:#FF6C0E;color:#fff;font-family:'Montserrat', sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:3px;line-height:40px;cursor:pointer;outline:none;border-radius:50px;font-size:13px;margin:0 15px;}
 .contact-page-form-send .field.input-field i{position:absolute;top:17px;right:20px;color:#00BCD4;opacity:0.6;font-size:13px;}
 .contact-us-social-icons a{color:#fdfdfd;margin:0 3px;width:35px;height:35px;display:inline-block;text-align:center;line-height:35px;background:#161623;border-radius:38px;font-size:12px;}
 .contact-us-social-icons a.fb{background:#3c579a;}
