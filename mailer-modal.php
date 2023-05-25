@@ -13,7 +13,7 @@
         }
         $recipient = "dragoncem@in.parseur.com";
 
-        $subject = "New contact from $name";
+        $subject = "Nuevo contacto de dragoncem.com";
 
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
