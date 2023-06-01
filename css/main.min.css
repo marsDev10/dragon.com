@@ -5118,3 +5118,28 @@ body {
         width: 200px;
     }
 }
+
+.container-boots-crm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 1200px){
+    .item-boots-crm:nth-child(4){
+        grid-area: 2 / 2 / 3 / 3;
+    }
+}
+
+@media screen and (max-width: 588px){
+    .container-boots-crm {
+        padding: .5rem;
+    }
+    
+    .item-boots-crm:nth-child(4){
+        grid-area: auto;
+    }
+
+}
