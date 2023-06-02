@@ -3077,8 +3077,25 @@ table#prices thead tr.price-dsc th.features.banner .banner-servers-box{
 .coodiv-features-box-black-color-carousel .item{
 	margin: 0 15px 0 0;
 	padding: 22px 0;
-    width: 40%;
+    width: 50%;
 }
+
+.coodiv-features-box-black-color-carousel .item img {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .coodiv-features-box-black-color-carousel .item{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .coodiv-features-box-black-color-carousel .item{
+        width: 100%;
+    }
+}
+
 .border-top {
     border-top: 1px solid #f2f3f4 !important;
 }
