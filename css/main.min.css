@@ -697,6 +697,12 @@ a,a:hover{-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-
 .carousel-nav-customers-text .carousel-cell:nth-child(5){top:50%;transform:translateY(-50%);right:5% !important;left:auto !important}
 .carousel-nav-customers-text .carousel-cell:nth-child(6){bottom:0;right:18% !important;left:auto !important}
 }
+
+@media screen and (max-width:991px){.carousel-nav-customers-text .carousel-cell:nth-child(1){top:4%;left:22% !important}
+.carousel-nav-customers-text .carousel-cell:nth-child(2){top:50%;transform:translateY(-70%);left:-3% !important;}
+.carousel-nav-customers-text .carousel-cell:nth-child(5){top:50%;transform:translateY(-70%);right:-3% !important;left:auto !important}
+}
+
 .carousel-nav-customers-text .carousel-cell .carousel-customrs-holder .customrs-icons{position:absolute;color:#fff;width:25px;height:25px;font-size:12px;line-height:25px;border-radius:20px;opacity:0;visibility:hidden;-webkit-transform:translateY(-16px);transform:translateY(-16px);}
 .carousel-nav-customers-text .carousel-cell.is-selected .carousel-customrs-holder .customrs-icons{opacity:1;visibility:visible;-webkit-transform:translateY(0);transform:translateY(0);}
 .carousel-nav-customers-text .carousel-cell .carousel-customrs-holder .customrs-icons.fb{bottom:-4px;left:-2px;background:#4464b1;}
