@@ -13,8 +13,15 @@ $(document).ready(function(){
         // Add your language section URLs and corresponding language codes here
         var languageSections = {
             "en": "http://localhost/SitioWebDragon/en-US/index.html",
+            "en-US": "http://localhost/SitioWebDragon/en-US/index.html",
+
             "es": "http://localhost/SitioWebDragon/es-MX/index.html",
+            "es-US": "http://localhost/SitioWebDragon/es-MX/index.html",
+            "es-MX": "http://localhost/SitioWebDragon/es-MX/index.html",
+            "es-419": "http://localhost/SitioWebDragon/es-MX/index.html",
+            
             "pt": "http://localhost/SitioWebDragon/pt-BR/index.html",
+            "pt-BR": "http://localhost/SitioWebDragon/pt-BR/index.html",
             // Add more language sections as needed
         };
         
