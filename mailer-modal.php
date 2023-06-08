@@ -13,11 +13,11 @@
         }
         $recipient = "dragoncem@in.parseur.com";
 
-        $subject = "Nuevo contacto de dragoncem.com";
+        $subject = "New contect from dragoncem.com";
 
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n";
-        $email_content .= "Telefono: $phone\n\n";
+        $email_content .= "Phone: $phone\n\n";
         $email_content .= "Message:\n$message\n";
 
         $email_headers = "From: $name <$email>";
@@ -29,12 +29,12 @@
             exit();
         } else {
             http_response_code(500);
-            echo "Oops! Algo salio mal con el envio de tus datos.";
+            echo "Oops! something was wrong.";
         }
 
     } else {
         http_response_code(403);
-        echo "Algo salio mal con el envio de tus datos, intentalo de nuevo.";
+        echo "Something was wrong with your data, please! try again.";
     }
 
 ?>

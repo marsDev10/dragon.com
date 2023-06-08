@@ -27,12 +27,12 @@
             echo "Thank You! Your message has been sent.";
         } else {
             http_response_code(500);
-            echo "Oops! Algo salio mal con el envio de tus datos.";
+            echo "Oops! something was wrong.";
         }
 
     } else {
         http_response_code(403);
-        echo "Algo salio mal con el envio de tus datos, intentalo de nuevo.";
+        echo "Something was wrong with your data, please! try again.";
     }
 
 ?>
