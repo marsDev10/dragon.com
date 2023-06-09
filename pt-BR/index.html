@@ -54,6 +54,40 @@
     <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LdLk7EUAAAAAEWHuB2tabMmlxQ2-RRTLPHEGe9Y"></script> -->
   </head>
 
+  <style>
+    .href-button{
+        border-radius: 4px;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #FF6C0E;
+        color: #fff;
+        position: relative;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        width: 150px;
+        justify-content: center;
+    }
+
+    .href-button:hover{
+
+        border-radius: 4px;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #FFF;
+        color: #FF6C0E;
+        position: relative;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        width: 150px;
+        justify-content: center;
+        border: solid 1px #FF6C0E;
+    }
+  </style>
+
   <body>
     <!-- start body -->
 
@@ -669,13 +703,8 @@
               <p class="content_text_author_description_p">
                 Identifica e qualifica os Leads com maior potencial em tempo real e cria estratégias para reativar e nutrir os que se encontram em um processo de amadurecimento.
               </p>
-              <button
-                class="main-header-btn coodiv-text-9 font-weight-bold"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
-              Ver em ação <i class="fal fa-arrow-right"></i>
-              </button>
+              <a role="button" class="href-button" id="header-login-dropdown" aria-haspopup="true" aria-expanded="false"
+              href="data-reports.html">Saiba mais</a>
 
               <!-- <a href="dedicated.html" class="btn btn-dark coodiv-text-11 mt-10">See plans and pricing</a> -->
             </div>

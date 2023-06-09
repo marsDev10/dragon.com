@@ -13,8 +13,15 @@ $(document).ready(function(){
         // Add your language section URLs and corresponding language codes here
         var languageSections = {
             "en": "https://dragoncem.com/v3/en-US/index.html",
+            "en-US": "https://dragoncem.com/v3/en-US/index.html",
+
             "es": "https://dragoncem.com/v3/es-MX/index.html",
+            "es-US": "https://dragoncem.com/v3/es-MX/index.html",
+            "es-MX": "https://dragoncem.com/v3/es-MX/index.html",
+            "es-419": "https://dragoncem.com/v3/es-MX/index.html",
+            
             "pt": "https://dragoncem.com/v3/pt-BR/index.html",
+            "pt-BR": "https://dragoncem.com/v3/pt-BR/index.html",
             // Add more language sections as needed
         };
         
