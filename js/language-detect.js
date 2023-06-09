@@ -12,16 +12,16 @@ $(document).ready(function(){
         
         // Add your language section URLs and corresponding language codes here
         var languageSections = {
-            "en": "http://localhost/SitioWebDragon/en-US/index.html",
-            "en-US": "http://localhost/SitioWebDragon/en-US/index.html",
+            "en": "https://dragoncem.com/v3/en-US/index.html",
+            "en-US": "https://dragoncem.com/v3/en-US/index.html",
 
-            "es": "http://localhost/SitioWebDragon/es-MX/index.html",
-            "es-US": "http://localhost/SitioWebDragon/es-MX/index.html",
-            "es-MX": "http://localhost/SitioWebDragon/es-MX/index.html",
-            "es-419": "http://localhost/SitioWebDragon/es-MX/index.html",
+            "es": "https://dragoncem.com/v3/es-MX/index.html",
+            "es-US": "https://dragoncem.com/v3/es-MX/index.html",
+            "es-MX": "https://dragoncem.com/v3/es-MX/index.html",
+            "es-419": "https://dragoncem.com/v3/es-MX/index.html",
             
-            "pt": "http://localhost/SitioWebDragon/pt-BR/index.html",
-            "pt-BR": "http://localhost/SitioWebDragon/pt-BR/index.html",
+            "pt": "https://dragoncem.com/v3/pt-BR/index.html",
+            "pt-BR": "https://dragoncem.com/v3/pt-BR/index.html",
             // Add more language sections as needed
         };
         
@@ -30,7 +30,7 @@ $(document).ready(function(){
             window.location.href = languageSections[browserLanguage];
         } else {
             // Redirect to a default language section if browser language is not supported
-            window.location.href = "http://localhost/SitioWebDragon/es-MX/index.html";
+            window.location.href = "https://dragoncem.com/v3/es-MX/index.html";
         }
     }
     
