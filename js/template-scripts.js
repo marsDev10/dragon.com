@@ -1,6 +1,28 @@
 /*------------------------------------------------------------------
  * coodiv team
  -------------------------------------------------------------------*/
+
+    // display on hover report seccion boxes //
+    $(document).ready(function() {
+        $("#contcal").mouseenter(function() {
+            $("#cal").animate({ left: "-5px" }, 200)
+                     .animate({ left: "5px"}, 200)
+                     .animate({ left: "0"}, 200);
+        });
+
+        $("#contqa").mouseenter(function() {
+            $("#qa").animate({ left: "-5px" }, 200)
+                     .animate({ left: "5px"}, 200)
+                     .animate({ left: "0"}, 200);
+        });
+
+        $("#contcrm").mouseenter(function() {
+            $("#crm").animate({ left: "-5px" }, 200)
+                     .animate({ left: "5px"}, 200)
+                     .animate({ left: "0"}, 200);
+        });
+    });
+
 	// display on hover box //
 	$(".display-on-hover-box-container a.display-on-hover-box-items").on("mouseenter",function() {
 		$(".tab-content-hover").hide();

@@ -35,7 +35,11 @@
     <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LdLk7EUAAAAAEWHuB2tabMmlxQ2-RRTLPHEGe9Y"></script> -->
 
 </head>
-
+<style>
+    .fad{
+        position: relative;
+    }
+</style>
 <body><!-- start body -->
 
 
@@ -146,39 +150,35 @@
                 </ul>
             </div>
         </nav>
-
-        <main class="container mt-25">            
-
-        </main>
     </div>
-    <section class="py-20 bg-default-2">
+    <section class="pt-27 pb-27 bg-default-2">
         <div class="container">
             <h5 class="title-default-coodiv-two">Los datos que necesitas en un solo lugar</h5>
 
             <div class="row justify-content-center mt-10">
-                <div class="col-md-4 tarjet-pointer" data-video-url="media/Calificaciones.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contqa" data-target="#exampleModal" data-video-url="../media/Quality.mp4">
                     <div class="coodiv-feutres-black-version">
-                        <i style="background: #FF6C0E;" class="fad fa-chart-pie"></i>
+                        <i style="background: #FF6C0E;" id="qa" class="fad fa-play"></i>
                         <div class="text">
                             <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">¡Impulsa la excelencia en el servicio!</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Una herramienta invaluable que nos permite evaluar la satisfacción de nuestros clientes al interactuar con nuestros vendedores. Después de 48 horas de recibir un lead, enviamos un mensaje de WhatsApp para preguntar si el servicio recibido fue satisfactorio.</p>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Con ayuda de la encuesta de calidad que DragonCEM le hace llegar al lead, en el reporte de Quality, podrás conocer su nivel de satisfacción con respecto al asesor que los atendió.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 tarjet-pointer" data-video-url="media/Quality.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contcal" data-video-url="../media/Calificaciones.mp4">
                     <div class="coodiv-feutres-black-version">
-                        <i style="background: #00BDCD ;" class="fad fa-bell"></i>
+                        <i style="background: #00BDCD ;" id="cal" class="fad fa-play"></i>
                         <div class="text">
                             <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">Oportunidades de alto valor</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">La retroalimentación directa de tus vendedores. Ellos están en la primera línea de contacto con los leads y tienen información privilegiada sobre su nivel de interés y compromiso. Con un vistazo, podrás identificar qué leads tienen un alto interés y cuáles necesitan un enfoque adicional.</p>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Tu fuerza de ventas está en la primera línea de contacto con los leads, con un vistazo, podrán identificar qué leads tienen un alto interés y cuáles necesitan un enfoque adicional.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 tarjet-pointer" data-video-url="media/CRM.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contcrm" data-video-url="../media/CRM.mp4">
                     <div class="coodiv-feutres-black-version">
-                        <i style="background: #19D3C5;" class="fad fa-binoculars"></i>
+                        <i style="background: #19D3C5;" id="crm" class="fad fa-play"></i>
                         <div class="text">
                             <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">CRM Journey</h5>
                             <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Mantén una sincronización impecable entre DragonCEM y tu sistema de CRM. El reporte te brinda información detallada sobre los leads que se han enviado correctamente, asegurando una gestión eficiente de tu base de datos de clientes.</p>
@@ -384,6 +384,32 @@
     <script src="../js/particles-code.js"></script>
     <script src="../js/particles.js"></script>
     <script src="../js/smoothscroll.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.tarjet-pointer').click(function() {
+                var videoUrl = $(this).data('video-url');
+                // var modalHTML = '<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 99999;">' +
+                //                     '<div class="modal-dialog modal-lg">' +
+                //                         '<div class="modal-content">' +
+                //                             '<div class="modal-header">' +
+                //                                 '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+                //                             '</div>' +
+                //                             '<div class="modal-body" style="padding-top: 0;">' +
+                //                                 '<div class="row" style="padding-bottom: 1.5rem;">' +
+                //                                     '<div class="col-md-12">' +
+                //                                         '<iframe src="' + videoUrl + '" frameborder="0" allowfullscreen></iframe>' +
+                //                                     '</div>' +
+                //                                 '</div>' +
+                //                             '</div>' +
+                //                         '</div>' +
+                //                     '</div>' +
+                //                 '</div>';
+
+
+  });
+        });
+    </script>
 </body>
 
 </html>
