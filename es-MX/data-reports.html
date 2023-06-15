@@ -36,12 +36,9 @@
 
 </head>
 <style>
-    .fad{
-        position: relative;
-    }
+    
 </style>
 <body><!-- start body -->
-
 
     <div class="preloader">
         <!-- start preloader -->
@@ -156,7 +153,7 @@
             <h5 class="title-default-coodiv-two">Los datos que necesitas en un solo lugar</h5>
 
             <div class="row justify-content-center mt-10">
-                <div class="col-md-3 tarjet-pointer" id="contqa" data-target="#exampleModal" data-video-url="../media/Quality.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contqa" data-title="Reporte Quality" data-video-url="../media/Quality.mp4">
                     <div class="coodiv-feutres-black-version">
                         <i style="background: #FF6C0E;" id="qa" class="fad fa-play"></i>
                         <div class="text">
@@ -166,7 +163,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 tarjet-pointer" id="contcal" data-video-url="../media/Calificaciones.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contcal" data-title="Reporte de Calificaciones" data-video-url="../media/Calificaciones.mp4">
                     <div class="coodiv-feutres-black-version">
                         <i style="background: #00BDCD ;" id="cal" class="fad fa-play"></i>
                         <div class="text">
@@ -176,7 +173,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 tarjet-pointer" id="contcrm" data-video-url="../media/CRM.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contcrm" data-title="Reporte de CRM" data-video-url="../media/CRM.mp4">
                     <div class="coodiv-feutres-black-version">
                         <i style="background: #19D3C5;" id="crm" class="fad fa-play"></i>
                         <div class="text">
@@ -185,76 +182,15 @@
                         </div>
                     </div>
                 </div>
+
             </div>
-
-            <!-- <div class="section-product-introduction-image-wrapper">
-                <div class="section-product-introduction-background"></div>
-                <img src="../img/demo/admin-panel.png" alt="statistics" title="statistics" class="section-product-introduction-image" loading="lazy" />
-            </div> -->
-
-            <!-- <div class="video-container">
-                <video controls autoplay preload="metadata" class="video-item">
-                    <div class="section-product-introduction-background"></div>
-                        <source src="../media/Calificaciones.mp4" type="video/mp4" id="qa">
-                        Añade más etiquetas <source> para formatos adicionales
-                        Tu navegador no admite el elemento de video.
-                </video>
-               
-
-                <img src="../media/Calificaciones.mp4" alt="statistics" title="statistics" class="section-product-introduction-image" loading="lazy" />
-            </div> -->
-
-            <!-- <div class="video-container">
-                <video controls autoplay preload="metadata" class="video-item">
-                    <div class="section-product-introduction-background"></div>
-                        <source src="../media/Quality.mp4" type="video/mp4" id="calificacion">
-                        Añade más etiquetas <source> para formatos adicionales
-                        Tu navegador no admite el elemento de video.
-                </video>
-               
-
-                <img src="../media/Calificaciones.mp4" alt="statistics" title="statistics" class="section-product-introduction-image" loading="lazy" />
-            </div> -->
-
-            <!-- <div class="video-container">
-                <video controls autoplay preload="metadata" class="video-item">
-                    <div class="section-product-introduction-background"></div>
-                        <source src="../media/CRM.mp4" type="video/mp4" id="crm">
-                        Añade más etiquetas <source> para formatos adicionales
-                        Tu navegador no admite el elemento de video.
-                </video>
-               
-
-                <img src="../media/Calificaciones.mp4" alt="statistics" title="statistics" class="section-product-introduction-image" loading="lazy" />
-            </div> -->
-        </div>
-    </section>
-
-    <section class="py-20">
-        <div class="container">
-                <div class="pb-15">
-                    <video controls autoplay preload="metadata" class="video-item">
-                        <source src="../media/Calificaciones.mp4" type="video/mp4" id="qa">
-                    </video>
-                </div>
-                <div class="pb-15">
-                    <video controls autoplay preload="metadata" class="video-item">
-                        <source src="../media/Quality.mp4" type="video/mp4" id="qa">
-                    </video>
-                </div>
-                <div class="pb-15">
-                    <video controls autoplay preload="metadata" class="video-item">
-                        <source src="../media/CRM.mp4" type="video/mp4" id="qa">
-                    </video>
-                </div>
-                <!-- <img src="../media/Calificaciones.mp4" alt="statistics" title="statistics" class="section-product-introduction-image" loading="lazy" /> -->
         </div>
     </section>
 
     <div id="mobile-form-contact-height"></div>
 
     <section class="footer-section">
-        <div class="container">
+        <div class="container" id="mainSection">
             <div class="row">
                 <div class="col-md-9 col-12 quiq-links-footer">
                     <div class="row justify-content-center">
@@ -385,31 +321,6 @@
     <script src="../js/particles.js"></script>
     <script src="../js/smoothscroll.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.tarjet-pointer').click(function() {
-                var videoUrl = $(this).data('video-url');
-                // var modalHTML = '<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 99999;">' +
-                //                     '<div class="modal-dialog modal-lg">' +
-                //                         '<div class="modal-content">' +
-                //                             '<div class="modal-header">' +
-                //                                 '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
-                //                             '</div>' +
-                //                             '<div class="modal-body" style="padding-top: 0;">' +
-                //                                 '<div class="row" style="padding-bottom: 1.5rem;">' +
-                //                                     '<div class="col-md-12">' +
-                //                                         '<iframe src="' + videoUrl + '" frameborder="0" allowfullscreen></iframe>' +
-                //                                     '</div>' +
-                //                                 '</div>' +
-                //                             '</div>' +
-                //                         '</div>' +
-                //                     '</div>' +
-                //                 '</div>';
-
-
-  });
-        });
-    </script>
 </body>
 
 </html>

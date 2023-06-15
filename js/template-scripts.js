@@ -4,23 +4,61 @@
 
     // display on hover report seccion boxes //
     $(document).ready(function() {
+
         $("#contcal").mouseenter(function() {
+
             $("#cal").animate({ left: "-5px" }, 200)
                      .animate({ left: "5px"}, 200)
                      .animate({ left: "0"}, 200);
+
         });
 
         $("#contqa").mouseenter(function() {
+
             $("#qa").animate({ left: "-5px" }, 200)
                      .animate({ left: "5px"}, 200)
                      .animate({ left: "0"}, 200);
+
         });
 
         $("#contcrm").mouseenter(function() {
+
             $("#crm").animate({ left: "-5px" }, 200)
                      .animate({ left: "5px"}, 200)
                      .animate({ left: "0"}, 200);
+
         });
+        
+    });
+
+    // display video modals report section
+
+    $(document).ready(function() {
+
+        $('.tarjet-pointer').click(function() {
+
+            $('#videoReportModal').remove();
+            var videoUrl = $(this).data('video-url');
+            var videoTitle = $(this).data('title');
+            var modalHTML = '<div class="modal fade" id="videoReportModal" tabindex="-1" role="dialog" aria-labelledby="videoReportModalLabel" aria-hidden="true" style="padding-top:30px;">' +
+                                '<div class="modal-dialog modal-dialog-centered modal-lg" role="document">' +
+                                    '<div class="modal-content">' +
+                                        '<div class="modal-header">' +
+                                            '<h5 style="color:#003462;" class="modal-title">' + videoTitle + '</h5>' +
+                                            '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+                                        '</div>' +
+                                        '<div class="modal-body" style="height:500px;">' +
+                                            '<iframe id="iframe-video" src="' + videoUrl + '" frameborder="0" allowfullscreen></iframe>' +
+                                        '</div>' +
+                                    '</div>' +
+                                '</div>' +
+                            '</div>';
+
+            $('#mainSection').append(modalHTML);
+            $('#videoReportModal').modal('show');
+
+        });
+
     });
 
 	// display on hover box //

@@ -36,18 +36,6 @@
 
 </head>
 
-<style>
-    .tarjet-pointer{
-        cursor:pointer; 
-        padding-top:20px; 
-        border:solid white 1px; 
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .tarjet-pointer:hover{
-        box-shadow: 0px 4px 6px rgba(255, 108, 14, 0.3);
-    }
-</style>
-
 <body><!-- start body -->
 
     <div class="preloader">
@@ -157,89 +145,51 @@
                 </ul>
             </div>
         </nav>
-
-        <main class="container mt-25">
-
-        </main>
     </div>
 
-    <section class="py-20 bg-default-2">
+    <section class="pt-27 pb-27 bg-default-2">
         <div class="container">
-            <h5 class="title-default-coodiv-two">Os dados que você precisa em um único lugar</h5>
+            <h5 class="title-default-coodiv-two">Os dados de que precisas num único lugar</h5>
 
             <div class="row justify-content-center mt-10">
-                <div class="col-md-4 tarjet-pointer">
+                <div class="col-md-3 tarjet-pointer" id="contqa" data-title="Relatório de Qualidade" data-video-url="../media/Quality.mp4">
                     <div class="coodiv-feutres-black-version">
-                        <i style="background: #FF6C0E;" class="fad fa-chart-pie"></i>
+                        <i style="background: #FF6C0E;" id="qa" class="fad fa-play"></i>
                         <div class="text">
                             <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">Promova a excelência no serviço!</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Uma ferramenta inestimável que nos permite avaliar a satisfação de nossos clientes ao interagir com nossos vendedores. Após 48 horas de receber um lead, enviamos uma mensagem pelo WhatsApp para perguntar se o serviço recebido foi satisfatório.</p>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Com a ajuda da pesquisa de qualidade que a DragonCEM envia ao lead, no relatório de Qualidade, você poderá conhecer o nível de satisfação deles em relação ao consultor que os atendeu.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 tarjet-pointer">
+                <div class="col-md-3 tarjet-pointer" id="contcal" data-title="Relatório de Classificações" data-video-url="../media/Calificaciones.mp4">
                     <div class="coodiv-feutres-black-version">
-                        <i style="background: #00BDCD ;" class="fad fa-bell"></i>
+                        <i style="background: #00BDCD ;" id="cal" class="fad fa-play"></i>
                         <div class="text">
                             <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">Oportunidades de alto valor</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">A retroalimentação direta dos seus vendedores. Eles estão na linha de frente de contato com os leads e possuem informações privilegiadas sobre seu nível de interesse e comprometimento. Com apenas uma olhada, você poderá identificar quais leads possuem alto interesse e quais necessitam de uma abordagem adicional.</p>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">A sua equipa de vendas está na linha da frente do contacto com os leads. Com um olhar rápido, eles podem identificar quais leads têm um alto interesse e quais precisam de uma abordagem adicional.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 tarjet-pointer">
+                <div class="col-md-3 tarjet-pointer" id="contcrm" data-title="Relatório de CRM" data-video-url="../media/CRM.mp4">
                     <div class="coodiv-feutres-black-version">
-                        <i style="background: #19D3C5;" class="fad fa-binoculars"></i>
+                        <i style="background: #19D3C5;" id="crm" class="fad fa-play"></i>
                         <div class="text">
                             <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">CRM Journey</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Mantenha uma sincronização impecável entre o DragonCEM e o seu sistema de CRM. O relatório fornece informações detalhadas sobre os leads que foram enviados corretamente, garantindo uma gestão eficiente do seu banco de dados de clientes.</p>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Mantenha uma sincronização impecável entre a DragonCEM e o seu sistema de CRM. O relatório fornece informações detalhadas sobre os leads que foram enviados corretamente, garantindo uma gestão eficiente da sua base de dados de clientes.</p>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="video-container">
-                <video controls autoplay preload="metadata" class="video-item">
-                    <div class="section-product-introduction-background"></div>
-                        <source src="../media/Calificaciones.mp4" type="video/mp4" id="qa">
-                        <!-- Añade más etiquetas <source> para formatos adicionales -->
-                        Tu navegador no admite el elemento de video.
-                </video>
-               
-
-                <!-- <img src="../media/Calificaciones.mp4" alt="statistics" title="statistics" class="section-product-introduction-image" loading="lazy" /> -->
-            </div>
-
-            <div class="video-container">
-                <video controls autoplay preload="metadata" class="video-item">
-                    <div class="section-product-introduction-background"></div>
-                        <source src="../media/Calificaciones.mp4" type="video/mp4" id="calificacion">
-                        <!-- Añade más etiquetas <source> para formatos adicionales -->
-                        Tu navegador no admite el elemento de video.
-                </video>
-               
-
-                <!-- <img src="../media/Calificaciones.mp4" alt="statistics" title="statistics" class="section-product-introduction-image" loading="lazy" /> -->
-            </div>
-
-            <div class="video-container">
-                <video controls autoplay preload="metadata" class="video-item">
-                    <div class="section-product-introduction-background"></div>
-                        <source src="../media/Calificaciones.mp4" type="video/mp4" id="crm">
-                        <!-- Añade más etiquetas <source> para formatos adicionales -->
-                        Tu navegador no admite el elemento de video.
-            </video>
-               
-
-                <!-- <img src="../media/Calificaciones.mp4" alt="statistics" title="statistics" class="section-product-introduction-image" loading="lazy" /> -->
             </div>
         </div>
     </section>
+
     <div id="mobile-form-contact-height"></div>
 
     <section class="footer-section">
-        <div class="container">
+        <div class="container" id="mainSection">
             <div class="row">
                 <div class="col-md-9 col-12 quiq-links-footer">
                     <div class="row justify-content-center">
