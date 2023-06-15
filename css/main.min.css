@@ -1140,6 +1140,40 @@ body.fourth-color-styles #coodiv-header{background:#00BCD4;background:-moz-linea
     height: 100%;
 }
 
+/* styles for button href to reports section */
+
+.href-button{
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FF6C0E;
+    color: #fff;
+    position: relative;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+}
+
+.href-button:hover{
+
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FFF;
+    color: #FF6C0E;
+    position: relative;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+    border: solid 1px #FF6C0E;
+}
+
 /* additional and updates styles */
 
 .moon-edition .bg_overlay_header img {
