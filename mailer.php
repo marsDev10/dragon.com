@@ -3,6 +3,7 @@
         $name = strip_tags(trim($_POST["name"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+        $sender = 'website@dragoncem.com';
         $phone = $_POST['tel'];
         $message = trim($_POST["message"]);
 
@@ -13,14 +14,14 @@
         }
         $recipient = "dragoncem@in.parseur.com";
 
-        $subject = "Nuevo contacto de dragoncem.com";
+        $subject = "New contect from dragoncem.com";
 
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n";
         $email_content .= "Telefono: $phone\n\n";
         $email_content .= "Message:\n$message\n";
 
-        $email_headers = "From: $name <$email>";
+        $email_headers = "From: $name <$sender>";
 
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             http_response_code(200);
