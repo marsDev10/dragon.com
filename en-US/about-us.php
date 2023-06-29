@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Impulsa tu estrategia de ventas con DragonCEM. Obtén insights valiosos sobre el potencial de tus leads, prioriza tus acciones comerciales y optimiza tus resultados. Descubre el poder de la gestión inteligente de leads y lleva tu negocio al siguiente nivel" />
+    <meta name="description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
     <meta name="author" content="API Digital" />
     <link rel="canonical" href="https://www.dragoncem.com/" />
     <link rel="icon" href="../dragonico.png" />
-    <title>DragonCEM | About - MX</title>
-    <meta property="og:locale" content="es_MX" />
+    <title>DragonCEM | About - US</title>
+    <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DragonCEM | About - MX" />
-    <meta property="og:description" content="Impulsa tu estrategia de ventas con DragonCEM. Obtén insights valiosos sobre el potencial de tus leads, prioriza tus acciones comerciales y optimiza tus resultados. Descubre el poder de la gestión inteligente de leads y lleva tu negocio al siguiente nivel" />
+    <meta property="og:title" content="DragonCEM | About - US" />
+    <meta property="og:description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
     <meta property="og:url" content="https://coodiv.net" />
     <meta property="og:site_name" content="DragonCEM" />
     <meta property="og:image" content="../img/meta/Dragon-meta.png" />
@@ -82,7 +82,7 @@
             <span style="color:#003462; 
         font-family: 'Montserrat', sans-serif; 
         font-size:18px; 
-        font-weight: 600;">Cargando</span>
+        font-weight: 600;">Loading</span>
         </div>
     </div>
     <!-- end preloader -->
@@ -91,7 +91,7 @@
         <!-- Fixed navbar -->
         <nav id="coodiv-navbar-header" class="navbar navbar-expand-md fixed-header-layou top-header-fixed">
             <div class="container main-header-coodiv-s">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="w-logo" src="../img/header/logo.png" alt="" />
                     <img class="b-logo" src="../img/header/logo.png" alt="" />
                 </a>
@@ -104,42 +104,42 @@
                 <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mega-menu demos-dropdown dropdown">
-                            <a class="nav-link" href="index.html#conexion">Conexión</a>
+                            <a class="nav-link" href="index.php#conection">Conection</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#asignacion">Asignación</a>
+                            <a class="nav-link" href="index.php#assignment">Assignment</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#integracion">Integración</a>
+                            <a class="nav-link" href="index.php#integration">Integration</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#whatsapp">WhatsApp</a>
+                            <a class="nav-link" href="index.php#whatsapp">WhatsApp</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#servicio">Servicio</a>
+                            <a class="nav-link" href="index.php#service">Service</a>
                         </li>
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Nosotros</a>
+                            <a class="nav-link" href="#">About Us</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contáctanos</a>
+                            <a class="nav-link" href="contact.php">Cont Us</a>
                         </li>
                     </ul>
                 </div>
                 <ul class="header-user-info-coodiv">
                     <li class="dropdown">
                         <a role="button" id="header-login-dropdown" aria-haspopup="true" aria-expanded="false"
-                            target="_blank" href="https://app.dragoncem.com/login.php">Aplicación Web</a>
+                            target="_blank" href="https://app.dragoncem.com/login.php">Web App</a>
                         <!-- user header dropdown -->
                         <div class="dropdown-menu coodiv-dropdown-header user-login-dropdown"
                             aria-labelledby="header-login-dropdown">
-                            <form class="user-login-dropdown-form" action="signin.html" data-form="validate">
+                            <form class="user-login-dropdown-form" action="signin.php" data-form="validate">
                                 <div class="form-group username">
                                     <input type="email" name="username" placeholder="Your Email" class="form-control" />
                                     <i class="fal fa-at"></i>
@@ -169,16 +169,11 @@
                 <div class="col-md-6 col-12 d-flex align-items-center">
                     <div class="content-text-author mb-md-0 mb-14">
                         <p style="color: #ee9823" class="eyebrow content-text-author_eyebrow">
-                            Conocenos.
+                            Get to know us.
                         </p>
-                        <h3 class="coodiv-text-4 font-weight-bold">¿Quiénes Somos?</h3>
+                        <h3 class="coodiv-text-4 font-weight-bold">Who are we?</h3>
                         <p class="content_text_author_description_p">
-                            DRAGON CEM es una plataforma creada por talento Mexicano, que
-                            automatiza la interacción entre cliente y marca, midiendo la
-                            calidad, servicio y experiencia al cliente a través de las
-                            diversas herramientas tecnológicas y servicios, generando
-                            soluciones a su medida para acrecentar el negocio de nuestros
-                            clientes, afianzando una excelente relación comercial.
+                            DRAGON CEM is a platform created by Mexican talent that automates the interaction between customers and brands, measuring customer quality, service, and experience through various technological tools and services. We generate customized solutions to enhance the business of our clients, fostering an excellent business relationship.
                         </p>
                     </div>
                 </div>
@@ -234,7 +229,7 @@
                 <div id="nav-tabContent" class="col-md-8 col-12 tab-content">
                     <div class="tab-pane fade show active" id="nav-first-help-categorie" role="tabpanel"
                         aria-labelledby="nav-first-help-categorie-tab">
-                        <h3 class="coodiv-text-4 font-weight-bold">¿Qué nos define?</h3>
+                        <h3 class="coodiv-text-4 font-weight-bold">What defines us?</h3>
                         <div class="help-center-box-item">
                             <div class="help-center-box-icon">
                                 <i class="fas fa-server" style="
@@ -242,12 +237,8 @@
                             "></i>
                             </div>
                             <div class="help-center-box-text">
-                                <span>Misión </span>
-                                <span>Construir y generar las mejores prácticas entre consumidor
-                                    y marca, para lograr una relación comercial satisfactoria,
-                                    con un enfoque dirigido a que los equipos comerciales
-                                    incrementen sus ventas y calidad de atención a sus
-                                    prospectos en un tiempo óptimo.</span>
+                                <span>Mission </span>
+                                <span>Our mission is to build and generate the best practices between consumers and brands, aiming to achieve a satisfying business relationship. We have a focused approach towards helping sales teams increase their sales and deliver quality customer service to leads within an optimal timeframe.</span>
                             </div>
                         </div>
 
@@ -258,14 +249,8 @@
                             "></i>
                             </div>
                             <div class="help-center-box-text">
-                                <span>Visión </span>
-                                <span>Ser un aliado estratégico para las empresas que generan
-                                    prácticas publicitarias, generándoles la mejor experiencia
-                                    de servicio a través de herramientas tecnológicas
-                                    innovadoras para crear una relación de lealtad entre la
-                                    marca y el consumidor, posicionándonos como una marca
-                                    mexicana de vanguardia con tecnología de valor
-                                    mundial.</span>
+                                <span>Vision </span>
+                                <span>To be a strategic ally for companies that generate advertising practices, providing them with the best service experience through innovative technological tools. We aim to create a loyal relationship between the brand and the consumer, positioning ourselves as a cutting-edge Mexican brand with globally valuable technology.</span>
                             </div>
                         </div>
 
@@ -276,17 +261,14 @@
                             "></i>
                             </div>
                             <div class="help-center-box-text">
-                                <span>Valores </span>
+                                <span>Values </span>
 
-                                <span>Excelencia: Calidad de nuestros productos.<br>
-                                    Eficiencia: Cumplimiento en tiempo y forma.<br>
-                                    Enfoque: Orientados a la acción y resultados.<br>
-                                    Adaptabilidad: Adecuar nuestros servicios al mercado
-                                    global.<br>
-                                    Empatía: Entender y conocer las necesidades de nuestros
-                                    clientes.<br>
-                                    Confianza: Generar un vínculo de fidelidad como
-                                    marca.</span>
+                                <span>Excellence: Quality of our products.<br>
+                                    Efficiency: Timely and accurate fulfillment.<br>
+                                    Focus: Action-oriented and results-driven.<br>
+                                    Adaptability: Adapting our services to the global market.<br>
+                                    Empathy: Understanding and knowing the needs of our clients.<br>
+                                    Confidence: Building a bond of loyalty as a brand.</span>
                             </div>
                         </div>
                     </div>
@@ -308,33 +290,33 @@
                 <div class="col-md-9 col-12 quiq-links-footer">
                     <div class="row justify-content-center">
                         <div class="col-md-4 col-4">
-                            <h5 class="quiq-links-footer-title">Conoce más</h5>
+                            <h5 class="quiq-links-footer-title">Learn more</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="index.html#conexion">Conexión</a></li>
-                                <li><a href="index.html#asignacion">Asignación</a></li>
-                                <li><a href="index.html#integracion">Intregación</a></li>
-                                <li><a href="index.html#whatsapp">WhatsApp</a></li>
-                                <li><a href="index.html#servicio">Servicio</a></li>
-                                <li><a href="#">Nosotros</a></li>
-                                <li><a href="contact.html">Contactanos</a></li>
+                                <li><a href="index.php#conection">Conection</a></li>
+                                <li><a href="index.php#assignment">Assignment</a></li>
+                                <li><a href="index.php#integration">Integration</a></li>
+                                <li><a href="index.php#whatsapp">WhatsApp</a></li>
+                                <li><a href="index.php#service">Service</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="contact.php">Cont Us</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 col-4">
-                            <h5 class="quiq-links-footer-title">Legales</h5>
+                            <h5 class="quiq-links-footer-title">Legals</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="legals.html">Aviso de privacidad</a></li>
+                                <li><a href="legals.php">Privacy</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 col-4 d-flex flex-column">
                             <div>
-                                <h5 class="quiq-links-footer-title">Conmmutador</h5>
+                                <h5 class="quiq-links-footer-title">Switch</h5>
                                 <ul class="quiq-links-footer-ul">
                                     <li><a href="tel:+525568269661">5568269661</a></li>
                             </div>
                             <div>
-                                <h5 class="quiq-links-footer-title">Cotiza aquí</h5>
+                                <h5 class="quiq-links-footer-title">Get a quote here</h5>
                                 <ul class="quiq-links-footer-ul">
                                     <li><a href="tel:+525568269661">5568269661</a></li>
                             </div>
@@ -372,18 +354,19 @@
             <div class="row justify-content-between final-footer-area mr-tp-40">
                 <div class="col-md col-12">
                     <div class="final-footer-area-text">DRAGON CEM ©
-                        <!-- <a target="_blank" href="https://coodiv.net/"> </a> -->Todos los derechos reservados</div>
+                        <!-- <a target="_blank" href="https://coodiv.net/"> </a> -->All rights reserved.</div>
                 </div>
                 <div class="col-md col-12 d-flex justify-content-end">
                     <div class="footer-lang-changer">
                         <div class="lang-changer-drop-up">
                             <a class="menu-btn-changer" role="button" id="dropupmenulagchanger" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-globe-asia"></i>
-                                Español</a>
+                                english</a>
                             <div class="dropdown-menu dropupmenulagchanger" aria-labelledby="dropupmenulagchanger">
-                                <a class="dropdown-item" href="../en-US/index.html">English</a>
-                                <a class="dropdown-item" href="#">Español</a>
-                                <a class="dropdown-item" href="../pt-BR/index.html">Portugués</a>
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="../es-MX/index.php">Español</a>
+                                <a class="dropdown-item" href="../pt-BR/index.php">Portugués</a>
+
                             </div>
                         </div>
                     </div>

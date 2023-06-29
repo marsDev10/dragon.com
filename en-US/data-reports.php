@@ -1,19 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
-    <meta name="author" content="API Digital" />
-    <link rel="canonical" href="https://www.dragoncem.com/" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level.">
+    <meta name="author" content="API Digital">
+    <link rel="canonical" href="https://www.dragoncem.com/contact.php" />
     <link rel="icon" href="../dragonico.png" />
-    <title>DragonCEM | About - US</title>
+    <title>DragonCEM | Reports - US</title>
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DragonCEM | About - US" />
+    <meta property="og:title" content="DragonCEM | Reports - US" />
     <meta property="og:description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
-    <meta property="og:url" content="https://coodiv.net" />
+    <meta property="og:url" content="https://www.dragoncem.com" />
     <meta property="og:site_name" content="DragonCEM" />
     <meta property="og:image" content="../img/meta/Dragon-meta.png" />
     <meta property="og:image:width" content="1800" />
@@ -51,16 +51,20 @@
     <!-- Bootstrap , fonts & icons -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../icons-pack/fontawesome-5/css/all.css" rel="stylesheet" />
+
+
     <!-- main css file -->
     <link href="../css/main.min.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LdLk7EUAAAAAEWHuB2tabMmlxQ2-RRTLPHEGe9Y"></script> -->
+
 </head>
 
-<body>
-    <!-- start body -->
-    <!-- Icono whatsapp flotante -->
-    <a href="https://dcem.mx/mxr5" target="_blank" class="whatsapp-icon">
-        <img src="../img/WhatsApp.png">
-    </a>
+<body><!-- start body -->
+
+
     <div class="preloader">
         <!-- start preloader -->
         <div class="preloader-container">
@@ -80,18 +84,29 @@
                 </circle>
             </svg>
             <span style="color:#003462; 
-        font-family: 'Montserrat', sans-serif; 
-        font-size:18px; 
-        font-weight: 600;">Loading</span>
+            font-family: 'Montserrat', sans-serif; 
+            font-size:18px; 
+            font-weight: 600;">Loading</span>
         </div>
     </div>
     <!-- end preloader -->
 
-    <div id="coodiv-header" class="d-flex mx-auto flex-column moon-edition simple-sub-page">
+    <div id="coodiv-header" class="d-flex mx-auto flex-column subpages-header moon-edition">
+
+        <!-- Icono whatsapp flotante -->
+        <a href="https://dcem.mx/mxr5" target="_blank" class="whatsapp-icon">
+            <img src="../img/WhatsApp.png">
+        </a>
+
+        <div class="bg_overlay_header">
+            <div id="particles-bg"></div>
+            <div class="cloud-bg"></div>
+            <div class="bg-img-header-new-moon">&nbsp;</div>
+        </div>
         <!-- Fixed navbar -->
         <nav id="coodiv-navbar-header" class="navbar navbar-expand-md fixed-header-layou top-header-fixed">
             <div class="container main-header-coodiv-s">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="w-logo" src="../img/header/logo.png" alt="" />
                     <img class="b-logo" src="../img/header/logo.png" alt="" />
                 </a>
@@ -104,31 +119,31 @@
                 <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mega-menu demos-dropdown dropdown">
-                            <a class="nav-link" href="index.html#conection">Conection</a>
+                            <a class="nav-link" href="index.php#conection">Conection</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#assignment">Assignment</a>
+                            <a class="nav-link" href="index.php#assignment">Assignment</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#integration">Integration</a>
+                            <a class="nav-link" href="index.php#integration">Integration</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#whatsapp">WhatsApp</a>
+                            <a class="nav-link" href="index.php#whatsapp">WhatsApp</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#service">Service</a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="index.php#service">Service</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Cont Us</a>
+                            <a class="nav-link" href="about-us.php">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -139,7 +154,7 @@
                         <!-- user header dropdown -->
                         <div class="dropdown-menu coodiv-dropdown-header user-login-dropdown"
                             aria-labelledby="header-login-dropdown">
-                            <form class="user-login-dropdown-form" action="signin.html" data-form="validate">
+                            <form class="user-login-dropdown-form" action="signin.php" data-form="validate">
                                 <div class="form-group username">
                                     <input type="email" name="username" placeholder="Your Email" class="form-control" />
                                     <i class="fal fa-at"></i>
@@ -162,150 +177,69 @@
             </div>
         </nav>
     </div>
-
-    <div class="bg-default-2 mx-5 py-10 mt-24">
-        <div class="container text-center">
-            <div class="row justify-content-start">
-                <div class="col-md-6 col-12 d-flex align-items-center">
-                    <div class="content-text-author mb-md-0 mb-14">
-                        <p style="color: #ee9823" class="eyebrow content-text-author_eyebrow">
-                            Get to know us.
-                        </p>
-                        <h3 class="coodiv-text-4 font-weight-bold">Who are we?</h3>
-                        <p class="content_text_author_description_p">
-                            DRAGON CEM is a platform created by Mexican talent that automates the interaction between customers and brands, measuring customer quality, service, and experience through various technological tools and services. We generate customized solutions to enhance the business of our clients, fostering an excellent business relationship.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div style="background-color: #ffffff00" class="section_text_graphic_image">
-                        <img src="../img/demo/features/AppDragonCEM.png" alt="CRECE TUS VENTAS" title="CRECE TUS VENTAS"
-                            loading="lazy" />
-                    </div>
-                </div>
-                <!-- <div class="container">
-                    <div class="row justify-content-start mt-10">
-                        <div class="col-md-4 col-12">
-                            <i class="fas fa-angle-double-up"></i>
-                            <p class="coodiv-text-11 font-weight-light">
-                                Una experiencia de servicio sensacional, comienza con la
-                                eficiencia y velocidad de atención de tu equipo comercial.
-                            </p>
-                            <h3 class="coodiv-text-9 font-weight-bold">
-                                Arturo Pardo - CEO
-                            </h3>
-                        </div>
-
-                        <div class="col-md-4 col-12">
-                            <i class="fas fa-angle-double-up"></i>
-                            <p class="coodiv-text-11 font-weight-light">
-                                La medición de todo tu marketing en una herramienta fácil de
-                                usar, puede generar excelentes beneficios en tu ROI.
-                            </p>
-                            <h3 class="coodiv-text-9 font-weight-bold">
-                                Sergio Castañeda - Estrategia de Negocios
-                            </h3>
-                        </div>
-
-                        <div class="col-md-4 col-12">
-                            <i class="fas fa-angle-double-up"></i>
-                            <p class="coodiv-text-11 font-weight-light">
-                                La base de una buena medición, comienza con la estructura de
-                                reportes libres de complejidad y data confiable.
-                            </p>
-                            <h3 class="coodiv-text-9 font-weight-bold">
-                                Mauricio Milstein - Director Comercial.
-                            </h3>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </div>
-
-    <section class="pt-5 pb-25 position-relative">
+    <section class="pt-27 pb-27 bg-default-2">
         <div class="container">
-            <div class="row justify-content-start mr-tp-40">
-                <div id="nav-tabContent" class="col-md-8 col-12 tab-content">
-                    <div class="tab-pane fade show active" id="nav-first-help-categorie" role="tabpanel"
-                        aria-labelledby="nav-first-help-categorie-tab">
-                        <h3 class="coodiv-text-4 font-weight-bold">What defines us?</h3>
-                        <div class="help-center-box-item">
-                            <div class="help-center-box-icon">
-                                <i class="fas fa-server" style="
-                                color: white;
-                            "></i>
-                            </div>
-                            <div class="help-center-box-text">
-                                <span>Mission </span>
-                                <span>Our mission is to build and generate the best practices between consumers and brands, aiming to achieve a satisfying business relationship. We have a focused approach towards helping sales teams increase their sales and deliver quality customer service to leads within an optimal timeframe.</span>
-                            </div>
-                        </div>
+            <h5 class="title-default-coodiv-two">The data you need in one place</h5>
 
-                        <div class="help-center-box-item">
-                            <div class="help-center-box-icon">
-                                <i class="fas fa-binoculars" style="
-                                color: white;
-                            "></i>
-                            </div>
-                            <div class="help-center-box-text">
-                                <span>Vision </span>
-                                <span>To be a strategic ally for companies that generate advertising practices, providing them with the best service experience through innovative technological tools. We aim to create a loyal relationship between the brand and the consumer, positioning ourselves as a cutting-edge Mexican brand with globally valuable technology.</span>
-                            </div>
-                        </div>
-
-                        <div class="help-center-box-item">
-                            <div class="help-center-box-icon">
-                                <i class="fas fa-chart-pie" style="
-                                color: white;
-                            "></i>
-                            </div>
-                            <div class="help-center-box-text">
-                                <span>Values </span>
-
-                                <span>Excellence: Quality of our products.<br>
-                                    Efficiency: Timely and accurate fulfillment.<br>
-                                    Focus: Action-oriented and results-driven.<br>
-                                    Adaptability: Adapting our services to the global market.<br>
-                                    Empathy: Understanding and knowing the needs of our clients.<br>
-                                    Confidence: Building a bond of loyalty as a brand.</span>
-                            </div>
+            <div class="row justify-content-center mt-10">
+                <div class="col-md-3 tarjet-pointer" id="contqa" data-title="Quality report" data-video-url="../media/Quality.mp4">
+                    <div class="coodiv-feutres-black-version">
+                        <i style="background: #FF6C0E;" id="qa" class="fad fa-play"></i>
+                        <div class="text">
+                            <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">Drive excellence in service!</h5>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">With the help of the quality survey that DragonCEM sends to the lead, in the Quality report, you will be able to know their level of satisfaction with the advisor who assisted them.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div style="background-color: #ffffff00" class="section_text_graphic_image">
-                        <img src="../img/demo/features/MVVDragonCEM.jpeg" alt="TUS PROSPECTOS EN UN LUGAR"
-                            title="TUS PROSPECTOS EN UN LUGAR" loading="lazy"
-                            style="border-radius: 50px; margin-top: 50%;" />
+
+                <div class="col-md-3 tarjet-pointer" id="contcal" data-title="Ratings report" data-video-url="../media/Calificaciones.mp4">
+                    <div class="coodiv-feutres-black-version">
+                        <i style="background: #00BDCD ;" id="cal" class="fad fa-play"></i>
+                        <div class="text">
+                            <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">High-value opportunities</h5>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Your sales force is on the front line of contact with leads. With a glance, they can identify which leads have high interest and which ones need additional focus.</p>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col-md-3 tarjet-pointer" id="contcrm" data-title="CRM report" data-video-url="../media/CRM.mp4">
+                    <div class="coodiv-feutres-black-version">
+                        <i style="background: #19D3C5;" id="crm" class="fad fa-play"></i>
+                        <div class="text">
+                            <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">CRM Journey</h5>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Maintain impeccable synchronization between DragonCEM and your CRM system. The report provides detailed information about leads that have been successfully sent, ensuring efficient management of your customer database.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
+    <div id="mobile-form-contact-height"></div>
+
     <section class="footer-section">
-        <div class="container">
+        <div class="container" id="mainSection">
             <div class="row">
                 <div class="col-md-9 col-12 quiq-links-footer">
                     <div class="row justify-content-center">
                         <div class="col-md-4 col-4">
                             <h5 class="quiq-links-footer-title">Learn more</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="index.html#conection">Conection</a></li>
-                                <li><a href="index.html#assignment">Assignment</a></li>
-                                <li><a href="index.html#integration">Integration</a></li>
-                                <li><a href="index.html#whatsapp">WhatsApp</a></li>
-                                <li><a href="index.html#service">Service</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="contact.html">Cont Us</a></li>
+                                <li><a href="index.php#conection">Conection</a></li>
+                                <li><a href="index.php#assignment">Assignment</a></li>
+                                <li><a href="index.php#integration">Integration</a></li>
+                                <li><a href="index.php#whatsapp">WhatsApp</a></li>
+                                <li><a href="index.php#service">Service</a></li>
+                                <li><a href="about-us.php">About Us</a></li>
+                                <li><a href="#">Cont Us</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 col-4">
                             <h5 class="quiq-links-footer-title">Legals</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="legals.html">Privacy</a></li>
+                                <li><a href="legals.php">Privacy</a></li>
                             </ul>
                         </div>
 
@@ -364,9 +298,8 @@
                                 english</a>
                             <div class="dropdown-menu dropupmenulagchanger" aria-labelledby="dropupmenulagchanger">
                                 <a class="dropdown-item" href="#">English</a>
-                                <a class="dropdown-item" href="../es-MX/index.html">Español</a>
-                                <a class="dropdown-item" href="../pt-BR/index.html">Portugués</a>
-
+                                <a class="dropdown-item" href="../es-MX/index.php">Español</a>
+                                <a class="dropdown-item" href="../pt-BR/index.php">Portugués</a>
                             </div>
                         </div>
                     </div>
@@ -374,7 +307,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- jquery -->
     <script src="../js/jquery.min.js"></script>
@@ -395,7 +327,8 @@
     <script src="../js/bootstrap.offcanvas.min.js"></script>
     <!-- touchSwipe JavaScript -->
     <script src="../js/jquery.touchSwipe.min.js"></script>
-
+    <!-- ajax mailer -->
+    <script src="../js/mailer.js"></script>
     <!-- seconde style additionel JavaScript -->
     <script src="../js/particles-code.js"></script>
     <script src="../js/particles.js"></script>

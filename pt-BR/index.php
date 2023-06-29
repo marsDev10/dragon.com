@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt">
+
+<?php
+session_start();
+
+// Verifica si existe el valor de utm_source en la sesión
+if (isset($_SESSION['utm_source'])) {
+    $utmSource = $_SESSION['utm_source'];
+} else {
+    $utmSource = 'n-a';
+}
+
+// Verifica si existe el valor de utm_medium en la sesión
+if (isset($_SESSION['utm_medium'])) {
+    $utmMedium = $_SESSION['utm_medium'];
+} else {
+    $utmMedium = 'n-a';
+}
+?>
+
   <head>
     <meta charset="utf-8" />
     <meta
@@ -163,7 +182,7 @@
         class="navbar navbar-expand-md fixed-header-layout"
       >
         <div class="container main-header-coodiv-s">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img
               class="w-logo"
               src="../img/header/logo-w.png"
@@ -210,11 +229,11 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about-us.html">Sobre Nós</a>
+                <a class="nav-link" href="about-us.php">Sobre Nós</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contate-nos</a>
+                <a class="nav-link" href="contact.php">Contate-nos</a>
               </li>
             </ul>
           </div>
@@ -236,7 +255,7 @@
               >
                 <form
                   class="user-login-dropdown-form"
-                  action="signin.html"
+                  action="signin.php"
                   data-form="validate"
                 >
                   <div class="form-group username">
@@ -649,7 +668,7 @@
                 Identifica e qualifica os Leads com maior potencial em tempo real e cria estratégias para reativar e nutrir os que se encontram em um processo de amadurecimento.
               </p>
               <a role="button" class="href-button" id="header-login-dropdown" aria-haspopup="true" aria-expanded="false"
-              href="data-reports.html">Saiba mais</a>
+              href="data-reports.php">Saiba mais</a>
             </div>
           </div>
           <div class="col-md-6 col-12">
@@ -1358,15 +1377,15 @@
                   <li><a href="#integração">Integração</a></li>
                   <li><a href="#whatsapp">WhatsApp</a></li>
                   <li><a href="#serviço">Serviço</a></li>
-                  <li><a href="about-us.html">Sobre Nós</a></li>
-                  <li><a href="contact.html">Contate-nos</a></li>
+                  <li><a href="about-us.php">Sobre Nós</a></li>
+                  <li><a href="contact.php">Contate-nos</a></li>
                 </ul>
               </div>
 
               <div class="col-md-4 col-4">
                 <h5 class="quiq-links-footer-title">Legais</h5>
                 <ul class="quiq-links-footer-ul">
-                  <li><a href="legals.html">Aviso de privacidade</a></li>
+                  <li><a href="legals.php">Aviso de privacidade</a></li>
                 </ul>
               </div>
 
@@ -1468,8 +1487,8 @@
                   class="dropdown-menu dropupmenulagchanger"
                   aria-labelledby="dropupmenulagchanger"
                 >
-                <a class="dropdown-item" href="../en-US/index.html">English</a>
-                <a class="dropdown-item" href="../es-MX/index.html">Español</a>
+                <a class="dropdown-item" href="../en-US/index.php">English</a>
+                <a class="dropdown-item" href="../es-MX/index.php">Español</a>
                 <a class="dropdown-item" href="#">Português</a>
                 </div>
               </div>

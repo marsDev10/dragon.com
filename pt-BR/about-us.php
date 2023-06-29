@@ -1,19 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Impulsione sua estratégia de vendas com o DragonCEM. Obtenha insights valiosos sobre o potencial de seus leads, priorize suas ações comerciais e otimize seus resultados. Descubra o poder da gestão inteligente de leads e leve seu negócio para o próximo nível.">
-    <meta name="author" content="API Digital">
-    <link rel="canonical" href="https://www.dragoncem.com/legals.html" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Impulsione sua estratégia de vendas com o DragonCEM. Obtenha insights valiosos sobre o potencial de seus leads, priorize suas ações comerciais e otimize seus resultados. Descubra o poder da gestão inteligente de leads e leve seu negócio para o próximo nível." />
+    <meta name="author" content="API Digital" />
+    <link rel="canonical" href="https://www.dragoncem.com/" />
     <link rel="icon" href="../dragonico.png" />
-    <title>DragonCEM | Legals - BR</title>
+    <title>DragonCEM | About - BR</title>
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DragonCEM | Legals - BR" />
+    <meta property="og:title" content="DragonCEM | About - BR" />
     <meta property="og:description" content="Impulsione sua estratégia de vendas com o DragonCEM. Obtenha insights valiosos sobre o potencial de seus leads, priorize suas ações comerciais e otimize seus resultados. Descubra o poder da gestão inteligente de leads e leve seu negócio para o próximo nível." />
-    <meta property="og:url" content="https://www.dragoncem.com" />
+    <meta property="og:url" content="https://coodiv.net" />
     <meta property="og:site_name" content="DragonCEM" />
     <meta property="og:image" content="../img/meta/Dragon-meta.png" />
     <meta property="og:image:width" content="1800" />
@@ -51,15 +51,16 @@
     <!-- Bootstrap , fonts & icons -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../icons-pack/fontawesome-5/css/all.css" rel="stylesheet" />
-
-
     <!-- main css file -->
     <link href="../css/main.min.css" rel="stylesheet" />
-
 </head>
 
-<body><!-- start body -->
-
+<body>
+    <!-- start body -->
+    <!-- Icono whatsapp flotante -->
+    <a href="https://dcem.mx/mxr5" target="_blank" class="whatsapp-icon">
+        <img src="../img/WhatsApp.png">
+    </a>
     <div class="preloader">
         <!-- start preloader -->
         <div class="preloader-container">
@@ -79,9 +80,9 @@
                 </circle>
             </svg>
             <span style="color:#003462; 
-            font-family: 'Montserrat', sans-serif; 
-            font-size:18px; 
-            font-weight: 600;">Carregando</span>
+        font-family: 'Montserrat', sans-serif; 
+        font-size:18px; 
+        font-weight: 600;">Carregando</span>
         </div>
     </div>
     <!-- end preloader -->
@@ -90,7 +91,7 @@
         <!-- Fixed navbar -->
         <nav id="coodiv-navbar-header" class="navbar navbar-expand-md fixed-header-layou top-header-fixed">
             <div class="container main-header-coodiv-s">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="w-logo" src="../img/header/logo.png" alt="" />
                     <img class="b-logo" src="../img/header/logo.png" alt="" />
                 </a>
@@ -103,31 +104,31 @@
                 <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mega-menu demos-dropdown dropdown">
-                            <a class="nav-link" href="index.html#conexão">Conexão</a>
+                            <a class="nav-link" href="index.php#conexão">Conexão</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#designação">Designação</a>
+                            <a class="nav-link" href="index.php#designação">Designação</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#integração">Integração</a>
+                            <a class="nav-link" href="index.php#integração">Integração</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#whatsapp">WhatsApp</a>
+                            <a class="nav-link" href="index.php#whatsapp">WhatsApp</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#serviço">Serviço</a>
+                            <a class="nav-link" href="index.php#serviço">Serviço</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Sobre Nós</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">Sobre Nós</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contate-nos</a>
+                            <a class="nav-link" href="contact.php">Contate-nos</a>
                         </li>
                     </ul>
                 </div>
@@ -138,7 +139,7 @@
                         <!-- user header dropdown -->
                         <div class="dropdown-menu coodiv-dropdown-header user-login-dropdown"
                             aria-labelledby="header-login-dropdown">
-                            <form class="user-login-dropdown-form" action="signin.html" data-form="validate">
+                            <form class="user-login-dropdown-form" action="signin.php" data-form="validate">
                                 <div class="form-group username">
                                     <input type="email" name="username" placeholder="Your Email" class="form-control" />
                                     <i class="fal fa-at"></i>
@@ -162,128 +163,126 @@
         </nav>
     </div>
 
-    <section class="pb-25 pt-20 position-relative">
+    <div class="bg-default-2 mx-5 py-10 mt-24">
+        <div class="container text-center">
+            <div class="row justify-content-start">
+                <div class="col-md-6 col-12 d-flex align-items-center">
+                    <div class="content-text-author mb-md-0 mb-14">
+                        <p style="color: #ee9823" class="eyebrow content-text-author_eyebrow">
+                            Conheça-nos.
+                        </p>
+                        <h3 class="coodiv-text-4 font-weight-bold">Quem Somos?</h3>
+                        <p class="content_text_author_description_p">
+                           
+A Dragon CEM é uma plataforma criada por talento mexicano que automatiza a interação entre cliente e marca, medindo a qualidade, serviço e experiência do cliente através de diversas ferramentas tecnológicas e serviços. Geramos soluções personalizadas para impulsionar o negócio de nossos clientes, fortalecendo uma excelente relação comercial.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div style="background-color: #ffffff00" class="section_text_graphic_image">
+                        <img src="../img/demo/features/AppDragonCEM.png" alt="CRECE TUS VENTAS" title="CRECE TUS VENTAS"
+                            loading="lazy" />
+                    </div>
+                </div>
+                <!-- <div class="container">
+                    <div class="row justify-content-start mt-10">
+                        <div class="col-md-4 col-12">
+                            <i class="fas fa-angle-double-up"></i>
+                            <p class="coodiv-text-11 font-weight-light">
+                                Una experiencia de servicio sensacional, comienza con la
+                                eficiencia y velocidad de atención de tu equipo comercial.
+                            </p>
+                            <h3 class="coodiv-text-9 font-weight-bold">
+                                Arturo Pardo - CEO
+                            </h3>
+                        </div>
+
+                        <div class="col-md-4 col-12">
+                            <i class="fas fa-angle-double-up"></i>
+                            <p class="coodiv-text-11 font-weight-light">
+                                La medición de todo tu marketing en una herramienta fácil de
+                                usar, puede generar excelentes beneficios en tu ROI.
+                            </p>
+                            <h3 class="coodiv-text-9 font-weight-bold">
+                                Sergio Castañeda - Estrategia de Negocios
+                            </h3>
+                        </div>
+
+                        <div class="col-md-4 col-12">
+                            <i class="fas fa-angle-double-up"></i>
+                            <p class="coodiv-text-11 font-weight-light">
+                                La base de una buena medición, comienza con la estructura de
+                                reportes libres de complejidad y data confiable.
+                            </p>
+                            <h3 class="coodiv-text-9 font-weight-bold">
+                                Mauricio Milstein - Director Comercial.
+                            </h3>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <section class="pt-5 pb-25 position-relative">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 help-center-header mr-tp-80">
-                    <h5 class="help-center-title"><span>Última revisión: 22-marzo-2021</span>
+            <div class="row justify-content-start mr-tp-40">
+                <div id="nav-tabContent" class="col-md-8 col-12 tab-content">
+                    <div class="tab-pane fade show active" id="nav-first-help-categorie" role="tabpanel"
+                        aria-labelledby="nav-first-help-categorie-tab">
+                        <h3 class="coodiv-text-4 font-weight-bold">que nos define?</h3>
+                        <div class="help-center-box-item">
+                            <div class="help-center-box-icon">
+                                <i class="fas fa-server" style="
+                                color: white;
+                            "></i>
+                            </div>
+                            <div class="help-center-box-text">
+                                <span>Missão </span>
+                                <span>Construir e gerar as melhores práticas entre consumidores e marcas, a fim de alcançar um relacionamento comercial satisfatório, com foco em capacitar as equipes de vendas a aumentar suas vendas e qualidade no atendimento aos prospectos em tempo ótimo.</span>
+                            </div>
+                        </div>
+
+                        <div class="help-center-box-item">
+                            <div class="help-center-box-icon">
+                                <i class="fas fa-binoculars" style="
+                                color: white;
+                            "></i>
+                            </div>
+                            <div class="help-center-box-text">
+                                <span>Visão </span>
+                                <span>Ser um aliado estratégico para empresas que geram práticas publicitárias, proporcionando-lhes a melhor experiência de serviço por meio de ferramentas tecnológicas inovadoras, para criar um relacionamento de fidelidade entre a marca e o consumidor. Posicionamo-nos como uma marca mexicana de vanguarda, com tecnologia de valor mundial.</span>
+                            </div>
+                        </div>
+
+                        <div class="help-center-box-item">
+                            <div class="help-center-box-icon">
+                                <i class="fas fa-chart-pie" style="
+                                color: white;
+                            "></i>
+                            </div>
+                            <div class="help-center-box-text">
+                                <span>Valores </span>
+
+                                <span>Excelência: Qualidade dos nossos produtos.<br>
+                                    Eficiência: Cumprimento dentro do prazo e forma.<br>
+                                    Enfoque: Orientado à ação e resultados.<br>
+                                    Adaptabilidade: Adaptar os nossos serviços ao mercado global.<br>
+                                    Empatia: Compreender e conhecer as necessidades dos nossos clientes.<br>
+                                    Confiança: Gerar um vínculo de fidelidade como marca.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div style="background-color: #ffffff00" class="section_text_graphic_image">
+                        <img src="../img/demo/features/MVVDragonCEM.jpeg" alt="TUS PROSPECTOS EN UN LUGAR"
+                            title="TUS PROSPECTOS EN UN LUGAR" loading="lazy"
+                            style="border-radius: 50px; margin-top: 50%;" />
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-start mr-tp-20">
-                <div class="col-md-12 privacy-content">
-
-                    <h4>API DIGITAL, S.A.P.I. DE C.V., en su carácter de responsable de datos personales, a través del
-                        sitio <a href="http://www.dragoncem.com">www.dragoncem.com</a>, en el uso de información y
-                        protección del a misma.</h4>
-                    <h4>Origen de la Información</h4>
-                    <p><strong>Primaria:</strong> Portal <a href="http://www.dragoncem.com">www.dragoncem.com</a></p>
-                    <p><strong>Secundaria:</strong>Vía correo electrónico y/o llamada telefónica y/o cualquier otro
-                        medio digital en seguimiento de información conseguida por la vía primaria.</p>
-
-                    <h4>Información Primaria recabada:</h4>
-                    <ul>
-                        <li>Nombre del interesado</li>
-                        <li>Correo electrónico</li>
-                        <li>Teléfono</li>
-                        <li>Comentarios</li>
-                    </ul>
-
-                    <h4>Información Secundaria recabada:</h4>
-                    <ul>
-                        <li>Hora de recepción del mensaje</li>
-                        <li>Hora de Whatsapp (si aplica)</li>
-                        <li>Mensajes de Whatsapp (si aplica)</li>
-                        <li>Respuestas de Whatsapp (si aplica)</li>
-                        <li>Hora de Email (si aplica)</li>
-                        <li>Apertura de Email (si aplica)</li>
-                        <li>Click en Email (si aplica)</li>
-                        <li>Hora de Llamada telefónica (si aplica)</li>
-                        <li>Duración de Llamada telefónica (si aplica)</li>
-                        <li>Ubicación geográfica de la llamada telefónica (si aplica)</li>
-                        <li>Grabación de la llamada (si aplica)</li>
-                        <li>Dirección IP del emisor de la información</li>
-                    </ul>
-
-                    <h4>Finalidad Principal de los Datos Personales recabados:</h4>
-                    <ul>
-                        <li>Contacto con el interesado por consulta realizada en los comentarios.</li>
-                        <li>Ofrecimiento de productos y/o servicios al interesado, así como cambios en los mismos.</li>
-                        <li>Envío de información solicitada al interesado.</li>
-                        <li>Seguimiento a consulta o información solicitada por el interesado.</li>
-                        <li>Información de productos y/o servicios detallados en el portal.</li>
-                    </ul>
-
-                    <h4>Finalidad adicional de los Datos Personales recabados</h4>
-                    <p>Elaboración de estadística respecto al perfil que visita el portal <a
-                            href="http://www.dragoncem.com">www.dragoncem.com</a>, con el fin de mejorar la atención al
-                        público.</p>
-
-                    <h4>Acceso, rectificación, cancelación o negativa para el trato de datos personales</h4>
-
-                    <p>Desde este momento usted nos lo puede manifestar enviando un correo electrónico a la dirección <a
-                            href="mailto:hola@dragoncem.com">hola@dragoncem.com</a>, con el objeto de acceder,
-                        rectificar, cancelar el uso de datos personales, ya sea con fines principales o adicionales.</p>
-                    <p>La negativa para el uso de sus datos personales para estas finalidades no será un motivo para que
-                        le neguemos los servicios y productos que solicita o contrata con nosotros.</p>
-                    <p>La petición será resuelta en un máximo de cinco días hábiles al correo electrónico establecido
-                        por el interesado.</p>
-
-                    <h4>¿Con quién compartimos su información personal y para qué fines?</h4>
-                    <p> API DIGITAL, S.A.P.I. de C.V. puede compartir con terceros la información, únicamente  para el apoyo en el cumplimiento de las finalidades descritas en este aviso de privacidad.</p>
-
-                    <h4>¿Cómo puede revocar su consentimiento sobre el uso de su información personal?</h4>
-                    <p>Si desea dejar de recibir cualquier tipo de mensajes, ya sea de ofrecimiento de promociones o
-                        seguimiento de nuestra parte, puede solicitarlo mandando un correo electrónico a: <a
-                            href="mailto:hola@dragoncem.com">hola@dragoncem.com</a></p>
-
-                    <h4>¿Cómo puede limitar el uso o divulgación de su información personal?</h4>
-                    <p>Con objeto de que usted pueda limitar el uso y divulgación de su información personal, le
-                        ofrecemos los siguientes medios:</p>
-                    <p>Su inscripción en el Registro Público para Evitar Publicidad, que está a cargo de la Procuraduría
-                        Federal del Consumidor, con la finalidad de que sus datos personales no sean utilizados para
-                        recibir publicidad o promociones de empresas de bienes o servicios. Para mayor información sobre
-                        este registro, usted puede consultar el portal de Internet de la PROFECO, o bien ponerse en
-                        contacto directo con ésta.</p>
-
-                    <h4>¿Cómo puede conocer los cambios a este aviso de privacidad?</h4>
-                    <p>El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas
-                        de nuevos requerimientos legales; de nuestras propias necesidades por los productos o servicios
-                        que ofrecemos; de nuestras prácticas de privacidad; de cambios en nuestro modelo de negocio, o
-                        por otras causas.</p>
-                    <p>Nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir el presente aviso de
-                        privacidad, a través del portal <a href="http://www.dragoncem.com">www.dragoncem.com</a></p>
-                    <p>El procedimiento a través del cual se llevarán a cabo las notificaciones sobre cambios o
-                        actualizaciones al presente aviso de privacidad será a través de portal <a
-                            href="http://www.dragoncem.com">www.dragoncem.com</a>.</p>
-
-                    <h4>Cookies y Web Beacons</h4>
-                    <p>El portal web requiere que su navegador tenga habilitados las cookies. Cookies son archivos de
-                        texto que se descargan automáticamente y se almacenan en la computadora del usuario mientras se
-                        navega en un sitio web en particular, permitiendo así al servidor de Internet recordar cierta
-                        información acerca del usuario, incluyendo sus preferencias al ver páginas en este servidor, así
-                        como los nombres de usuario y contraseñas.</p>
-                    <p>Mientras que, Web Beacons son imágenes colocadas en un sitio web o correo electrónico, las cuales
-                        pueden ser utilizadas para monitorear el comportamiento del usuario, como puede ser el
-                        almacenamiento de información referente a la dirección IP del usuario, tiempo de interacción en
-                        un sitio web en particular y el navegador web que se utilizó, entre otras cosas.</p>
-                    <p>Le informamos que utilizamos cookies y web beacons para obtener le siguiente información
-                        personal:</p>
-
-                    <ul>
-                        <li>El tipo de navegador web y Sistema Operativo.</li>
-                        <li>Los sitios web que visita.</li>
-                        <li>Los enlaces que usted sigue.</li>
-                        <li>La dirección IP.</li>
-                        <li>El sitió web que visitó antes al nuestro.</li>
-                    </ul>
-
-                    <p>Desactivar el uso de cookies puede inhabilitar ciertas funciones del portal XXXXXXXXX o no
-                        permitir que se muestren en la forma que originalmente fueron diseñados. En caso de que se
-                        prefiera eliminar la información mandada por las cookies de XXXXXXXXXX, puede eliminar los estos
-                        archivos al final de cada sesión dentro de su navegador. Información de interés sobre cómo hacer
-                        esto puede ser consultada en los sitios principales de cada navegador.</p>
-                </div>
-            </div>
+        </div>
     </section>
 
     <section class="footer-section">
@@ -294,20 +293,20 @@
                         <div class="col-md-4 col-4">
                             <h5 class="quiq-links-footer-title">Saiba mais</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="index.html#conexão">Conexão</a></li>
-                                <li><a href="index.html#designação">Designação</a></li>
-                                <li><a href="index.html#integração">Integração</a></li>
-                                <li><a href="index.html#whatsapp">WhatsApp</a></li>
-                                <li><a href="index.html#serviço">Serviço</a></li>
-                                <li><a href="about-us.html">Sobre Nós</a></li>
-                                <li><a href="contact.html">Contate-nos</a></li>
+                                <li><a href="index.php#conexão">Conexão</a></li>
+                                <li><a href="index.php#designação">Designação</a></li>
+                                <li><a href="index.php#integração">Integração</a></li>
+                                <li><a href="index.php#whatsapp">WhatsApp</a></li>
+                                <li><a href="index.php#serviço">Serviço</a></li>
+                                <li><a href="#">Sobre Nós</a></li>
+                                <li><a href="contact.php">Contate-nos</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 col-4">
                             <h5 class="quiq-links-footer-title">Legais</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="#">Aviso de privacidade</a></li>
+                                <li><a href="legals.php">Aviso de privacidade</a></li>
                             </ul>
                         </div>
 
@@ -365,8 +364,8 @@
                                 aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-globe-asia"></i>
                                 Português</a>
                             <div class="dropdown-menu dropupmenulagchanger" aria-labelledby="dropupmenulagchanger">
-                                <a class="dropdown-item" href="../en-US/index.html">English</a>
-                                <a class="dropdown-item" href="../es-MX/index.html">Español</a>
+                                <a class="dropdown-item" href="../en-US/index.php">English</a>
+                                <a class="dropdown-item" href="../es-MX/index.php">Español</a>
                                 <a class="dropdown-item" href="#">Português</a>
                             </div>
                         </div>
@@ -375,6 +374,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- jquery -->
     <script src="../js/jquery.min.js"></script>

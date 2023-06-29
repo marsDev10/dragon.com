@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="pt">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Impulsione sua estratégia de vendas com o DragonCEM. Obtenha insights valiosos sobre o potencial de seus leads, priorize suas ações comerciais e otimize seus resultados. Descubra o poder da gestão inteligente de leads e leve seu negócio para o próximo nível.">
+    <meta name="description" content="Impulsa tu estrategia de ventas con DragonCEM. Obtén insights valiosos sobre el potencial de tus leads, prioriza tus acciones comerciales y optimiza tus resultados. Descubre el poder de la gestión inteligente de leads y lleva tu negocio al siguiente nivel">
     <meta name="author" content="API Digital">
-    <link rel="canonical" href="https://www.dragoncem.com/contact.html" />
+    <link rel="canonical" href="https://www.dragoncem.com/contact.php" />
     <link rel="icon" href="../dragonico.png" />
-    <title>DragonCEM | Reports - BR</title>
-    <meta property="og:locale" content="pt_BR" />
+    <title>DragonCEM | Reports - MX</title>
+    <meta property="og:locale" content="es_MX" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DragonCEM | Reports - BR" />
-    <meta property="og:description" content="Impulsione sua estratégia de vendas com o DragonCEM. Obtenha insights valiosos sobre o potencial de seus leads, priorize suas ações comerciais e otimize seus resultados. Descubra o poder da gestão inteligente de leads e leve seu negócio para o próximo nível." />
+    <meta property="og:title" content="DragonCEM | Reports - MX" />
+    <meta property="og:description" content="Impulsa tu estrategia de ventas con DragonCEM. Obtén insights valiosos sobre el potencial de tus leads, prioriza tus acciones comerciales y optimiza tus resultados. Descubre el poder de la gestión inteligente de leads y lleva tu negocio al siguiente nivel" />
     <meta property="og:url" content="https://www.dragoncem.com" />
     <meta property="og:site_name" content="DragonCEM" />
     <meta property="og:image" content="../img/meta/Dragon-meta.png" />
@@ -29,7 +29,7 @@
         dataLayer.push(arguments);
     }
     gtag('js', new Date());
-    gtag('config', 'G-03SBY7N3LQ');
+    gtag('config', 'G-03SBY7N3LQ');  
     </script>
 
     <!-- Global site tag (gtag.js) - Google Ads: 471463963 --> 
@@ -61,7 +61,9 @@
     <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LdLk7EUAAAAAEWHuB2tabMmlxQ2-RRTLPHEGe9Y"></script> -->
 
 </head>
-
+<style>
+    
+</style>
 <body><!-- start body -->
 
     <div class="preloader">
@@ -85,7 +87,7 @@
             <span style="color:#003462; 
             font-family: 'Montserrat', sans-serif; 
             font-size:18px; 
-            font-weight: 600;">Carregando</span>
+            font-weight: 600;">Cargando</span>
         </div>
     </div>
     <!-- end preloader -->
@@ -105,7 +107,7 @@
         <!-- Fixed navbar -->
         <nav id="coodiv-navbar-header" class="navbar navbar-expand-md fixed-header-layou top-header-fixed">
             <div class="container main-header-coodiv-s">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="w-logo" src="../img/header/logo.png" alt="" />
                     <img class="b-logo" src="../img/header/logo.png" alt="" />
                 </a>
@@ -118,42 +120,42 @@
                 <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mega-menu demos-dropdown dropdown">
-                            <a class="nav-link" href="index.html#conexão">Conexão</a>
+                            <a class="nav-link" href="index.php#conexion">Conexión</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#designação">Designação</a>
+                            <a class="nav-link" href="index.php#asignacion">Asignación</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#integração">Integração</a>
+                            <a class="nav-link" href="index.php#integracion">Integración</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#whatsapp">WhatsApp</a>
+                            <a class="nav-link" href="index.php#whatsapp">WhatsApp</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#serviço">Serviço</a>
+                            <a class="nav-link" href="index.php#servicio">Servicio</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">Sobre Nós</a>
+                            <a class="nav-link" href="about-us.php">Nosotros</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contate-nos</a>
+                            <a class="nav-link" href="contact.php">Contáctanos</a>
                         </li>
                     </ul>
                 </div>
                 <ul class="header-user-info-coodiv">
                     <li class="dropdown">
                         <a role="button" id="header-login-dropdown" aria-haspopup="true" aria-expanded="false"
-                            target="_blank" href="https://app.dragoncem.com/login.php">Web App</a>
+                            target="_blank" href="https://app.dragoncem.com/login.php">Aplicación Web</a>
                         <!-- user header dropdown -->
                         <div class="dropdown-menu coodiv-dropdown-header user-login-dropdown"
                             aria-labelledby="header-login-dropdown">
-                            <form class="user-login-dropdown-form" action="signin.html" data-form="validate">
+                            <form class="user-login-dropdown-form" action="signin.php" data-form="validate">
                                 <div class="form-group username">
                                     <input type="email" name="username" placeholder="Your Email" class="form-control" />
                                     <i class="fal fa-at"></i>
@@ -176,38 +178,37 @@
             </div>
         </nav>
     </div>
-
     <section class="pt-27 pb-27 bg-default-2">
         <div class="container">
-            <h5 class="title-default-coodiv-two">Os dados de que precisas num único lugar</h5>
+            <h5 class="title-default-coodiv-two">Los datos que necesitas en un solo lugar</h5>
 
             <div class="row justify-content-center mt-10">
-                <div class="col-md-3 tarjet-pointer" id="contqa" data-title="Relatório de Qualidade" data-video-url="../media/Quality.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contqa" data-title="Reporte Quality" data-video-url="../media/Quality.mp4">
                     <div class="coodiv-feutres-black-version">
                         <i style="background: #FF6C0E;" id="qa" class="fad fa-play"></i>
                         <div class="text">
-                            <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">Promova a excelência no serviço!</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Com a ajuda da pesquisa de qualidade que a DragonCEM envia ao lead, no relatório de Qualidade, você poderá conhecer o nível de satisfação deles em relação ao consultor que os atendeu.</p>
+                            <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">¡Impulsa la excelencia en el servicio!</h5>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Con ayuda de la encuesta de calidad que DragonCEM le hace llegar al lead, en el reporte de Quality, podrás conocer su nivel de satisfacción con respecto al asesor que los atendió.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 tarjet-pointer" id="contcal" data-title="Relatório de Classificações" data-video-url="../media/Calificaciones.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contcal" data-title="Reporte de Calificaciones" data-video-url="../media/Calificaciones.mp4">
                     <div class="coodiv-feutres-black-version">
                         <i style="background: #00BDCD ;" id="cal" class="fad fa-play"></i>
                         <div class="text">
                             <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">Oportunidades de alto valor</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">A sua equipa de vendas está na linha da frente do contacto com os leads. Com um olhar rápido, eles podem identificar quais leads têm um alto interesse e quais precisam de uma abordagem adicional.</p>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Tu fuerza de ventas está en la primera línea de contacto con los leads, con un vistazo, podrán identificar qué leads tienen un alto interés y cuáles necesitan un enfoque adicional.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 tarjet-pointer" id="contcrm" data-title="Relatório de CRM" data-video-url="../media/CRM.mp4">
+                <div class="col-md-3 tarjet-pointer" id="contcrm" data-title="Reporte de CRM" data-video-url="../media/CRM.mp4">
                     <div class="coodiv-feutres-black-version">
                         <i style="background: #19D3C5;" id="crm" class="fad fa-play"></i>
                         <div class="text">
                             <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">CRM Journey</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Mantenha uma sincronização impecável entre a DragonCEM e o seu sistema de CRM. O relatório fornece informações detalhadas sobre os leads que foram enviados corretamente, garantindo uma gestão eficiente da sua base de dados de clientes.</p>
+                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Mantén una sincronización impecable entre DragonCEM y tu sistema de CRM. El reporte te brinda información detallada sobre los leads que se han enviado correctamente, asegurando una gestión eficiente de tu base de datos de clientes.</p>
                         </div>
                     </div>
                 </div>
@@ -224,33 +225,33 @@
                 <div class="col-md-9 col-12 quiq-links-footer">
                     <div class="row justify-content-center">
                         <div class="col-md-4 col-4">
-                            <h5 class="quiq-links-footer-title">Saiba mais</h5>
+                            <h5 class="quiq-links-footer-title">Conoce más</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="index.html#conexão">Conexão</a></li>
-                                <li><a href="index.html#designação">Designação</a></li>
-                                <li><a href="index.html#integração">Integração</a></li>
-                                <li><a href="index.html#whatsapp">WhatsApp</a></li>
-                                <li><a href="index.html#serviço">Serviço</a></li>
-                                <li><a href="about-us.html">Sobre Nós</a></li>
-                                <li><a href="#">Contate-nos</a></li>
+                                <li><a href="index.php#conexion">Conexión</a></li>
+                                <li><a href="index.php#asignacion">Asignación</a></li>
+                                <li><a href="index.php#integracion">Intregación</a></li>
+                                <li><a href="index.php#whatsapp">WhatsApp</a></li>
+                                <li><a href="index.php#servicio">Servicio</a></li>
+                                <li><a href="about-us.php">Nosotros</a></li>
+                                <li><a href="#">Contáctanos</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 col-4">
-                            <h5 class="quiq-links-footer-title">Legais</h5>
+                            <h5 class="quiq-links-footer-title">Legales</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="legals.html">Aviso de privacidade</a></li>
+                                <li><a href="legals.php">Aviso de privacidad</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 col-4 d-flex flex-column">
                             <div>
-                                <h5 class="quiq-links-footer-title">Comutador</h5>
+                                <h5 class="quiq-links-footer-title">Conmmutador</h5>
                                 <ul class="quiq-links-footer-ul">
                                     <li><a href="tel:+525568269661">5568269661</a></li>
                             </div>
                             <div>
-                                <h5 class="quiq-links-footer-title">Faça uma cotação aqui</h5>
+                                <h5 class="quiq-links-footer-title">Cotiza aquí</h5>
                                 <ul class="quiq-links-footer-ul">
                                     <li><a href="tel:+525568269661">5568269661</a></li>
                             </div>
@@ -288,18 +289,18 @@
             <div class="row justify-content-between final-footer-area mr-tp-40">
                 <div class="col-md col-12">
                     <div class="final-footer-area-text">DRAGON CEM ©
-                        <!-- <a target="_blank" href="https://coodiv.net/"> </a> -->Todos os direitos reservados.</div>
+                        <!-- <a target="_blank" href="https://coodiv.net/"> </a> -->Todos los derechos reservados</div>
                 </div>
                 <div class="col-md col-12 d-flex justify-content-end">
                     <div class="footer-lang-changer">
                         <div class="lang-changer-drop-up">
                             <a class="menu-btn-changer" role="button" id="dropupmenulagchanger" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-globe-asia"></i>
-                                Português</a>
+                                Español</a>
                             <div class="dropdown-menu dropupmenulagchanger" aria-labelledby="dropupmenulagchanger">
-                                <a class="dropdown-item" href="../en-US/index.html">English</a>
-                                <a class="dropdown-item" href="../es-MX/index.html">Español</a>
-                                <a class="dropdown-item" href="#">Português</a>
+                                <a class="dropdown-item" href="../en-US/index.php">English</a>
+                                <a class="dropdown-item" href="#">Español</a>
+                                <a class="dropdown-item" href="../pt-BR/index.php">Portugués</a>
                             </div>
                         </div>
                     </div>
@@ -333,6 +334,7 @@
     <script src="../js/particles-code.js"></script>
     <script src="../js/particles.js"></script>
     <script src="../js/smoothscroll.js"></script>
+
 </body>
 
 </html>

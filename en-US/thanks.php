@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="Impulsione sua estratégia de vendas com o DragonCEM. Obtenha insights valiosos sobre o potencial de seus leads, priorize suas ações comerciais e otimize seus resultados. Descubra o poder da gestão inteligente de leads e leve seu negócio para o próximo nível." />
+  <meta name="description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
   <meta name="author" content="API Digital" />
-  <link rel="canonical" href="https://www.dragoncem.com/thanks.html" />
+  <link rel="canonical" href="https://www.dragoncem.com/thanks.php" />
   <link rel="icon" href="../dragonico.png" />
-  <title>DragonCEM | Thank You - BR</title>
-  <meta property="og:locale" content="pt_BR" />
+  <title>DragonCEM | Thank You - US</title>
+  <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="DragonCEM | Thank You - BR" />
-  <meta property="og:description" content="Impulsione sua estratégia de vendas com o DragonCEM. Obtenha insights valiosos sobre o potencial de seus leads, priorize suas ações comerciais e otimize seus resultados. Descubra o poder da gestão inteligente de leads e leve seu negócio para o próximo nível." />
+  <meta property="og:title" content="DragonCEM | Thank You - US" />
+  <meta property="og:description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
   <meta property="og:url" content="https://www.dragoncem.com/" />
   <meta property="og:site_name" content="DragonCEM" />
   <meta property="og:image" content="../img/meta/Dragon-meta.png" />
@@ -21,32 +21,32 @@
   <meta property="og:image:type" content="../image/jpeg" />
   <!-- <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@coodiv" /> -->
+    
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){
+      dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-03SBY7N3LQ');
+  </script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-03SBY7N3LQ');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Ads: 471463963 --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-471463963"></script> 
 
-    <!-- Global site tag (gtag.js) - Google Ads: 471463963 --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-471463963"></script> 
+  <script> 
+  window.dataLayer = window.dataLayer || []; function gtag(){
+      dataLayer.push(arguments);
+  } 
+  gtag('js', new Date()); gtag('config', 'AW-471463963'); 
+  </script>
 
-    <script> 
-    window.dataLayer = window.dataLayer || []; function gtag(){
-        dataLayer.push(arguments);
-    } 
-    gtag('js', new Date()); gtag('config', 'AW-471463963'); 
-    </script>
-
-    <script> 
-    gtag('config', 'AW-471463963/L6G4CNvW2tsCEJvw5-AB', { 
-        'phone_conversion_number': '55 41 61 17 91' 
-    }); 
-    </script>
+  <script> 
+  gtag('config', 'AW-471463963/L6G4CNvW2tsCEJvw5-AB', { 
+      'phone_conversion_number': '55 41 61 17 91' 
+  }); 
+  </script>
 
   <!-- Bootstrap , fonts & icons -->
   <link href="../css/bootstrap.min.css" rel="stylesheet" />
@@ -80,7 +80,7 @@
       <span style="color:#003462; 
           font-family: 'Montserrat', sans-serif; 
           font-size:18px; 
-          font-weight: 600;">Carregando </span>
+          font-weight: 600;">Loading</span>
     </div>
   </div>
   <!-- end preloader -->
@@ -94,16 +94,16 @@
         <div class="row justify-content-start">
           <div class="col-md-6 col-12 white-text">
             <h4 class="main-header-title coodiv-text-3 font-weight-bold pt-20">
-              Obrigado por entrar em contato conosco!
+              Thank you for contacting us!
             </h4>
             <ul class="main-header-features">
               <li>
                 <i class="fal fa-check"></i>
                 <h6>
-                  Em breve, um de nossos consultores entrará em contato com você.
+                  One of our advisors will contact you shortly.
                 </h6><br>
                 <div class="d-flex justify-content-start"><a class="main-header-btn coodiv-text-9 font-weight-bold"
-                    href="index.html">Voltar <i class="fal fa-arrow-left"></i></a></div>
+                    href="index.php">Volver <i class="fal fa-arrow-left"></i></a></div>
 
               </li>
             </ul>
