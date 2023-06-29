@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Impulsa tu estrategia de ventas con DragonCEM. Obtén insights valiosos sobre el potencial de tus leads, prioriza tus acciones comerciales y optimiza tus resultados. Descubre el poder de la gestión inteligente de leads y lleva tu negocio al siguiente nivel">
     <meta name="author" content="API Digital">
-    <link rel="canonical" href="https://www.dragoncem.com/legals.html" />
+    <link rel="canonical" href="https://www.dragoncem.com/legals.php" />
     <link rel="icon" href="../dragonico.png" />
     <title>DragonCEM | Legals - MX</title>
     <meta property="og:locale" content="es_MX" />
@@ -90,7 +90,7 @@
         <!-- Fixed navbar -->
         <nav id="coodiv-navbar-header" class="navbar navbar-expand-md fixed-header-layou top-header-fixed">
             <div class="container main-header-coodiv-s">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="w-logo" src="../img/header/logo.png" alt="" />
                     <img class="b-logo" src="../img/header/logo.png" alt="" />
                 </a>
@@ -103,31 +103,31 @@
                 <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mega-menu demos-dropdown dropdown">
-                            <a class="nav-link" href="index.html#conexion">Conexión</a>
+                            <a class="nav-link" href="index.php#conexion">Conexión</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#asignacion">Asignación</a>
+                            <a class="nav-link" href="index.php#asignacion">Asignación</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#integracion">Integración</a>
+                            <a class="nav-link" href="index.php#integracion">Integración</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#whatsapp">WhatsApp</a>
+                            <a class="nav-link" href="index.php#whatsapp">WhatsApp</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#servicio">Servicio</a>
+                            <a class="nav-link" href="index.php#servicio">Servicio</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">Nosotros</a>
+                            <a class="nav-link" href="about-us.php">Nosotros</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contáctanos</a>
+                            <a class="nav-link" href="contact.php">Contáctanos</a>
                         </li>
                     </ul>
                 </div>
@@ -138,7 +138,7 @@
                         <!-- user header dropdown -->
                         <div class="dropdown-menu coodiv-dropdown-header user-login-dropdown"
                             aria-labelledby="header-login-dropdown">
-                            <form class="user-login-dropdown-form" action="signin.html" data-form="validate">
+                            <form class="user-login-dropdown-form" action="signin.php" data-form="validate">
                                 <div class="form-group username">
                                     <input type="email" name="username" placeholder="Your Email" class="form-control" />
                                     <i class="fal fa-at"></i>
@@ -295,13 +295,13 @@
                         <div class="col-md-4 col-4">
                             <h5 class="quiq-links-footer-title">Conoce más</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="index.html#conexion">Conexión</a></li>
-                                <li><a href="index.html#asignacion">Asignación</a></li>
-                                <li><a href="index.html#integracion">Intregación</a></li>
-                                <li><a href="index.html#whatsapp">WhatsApp</a></li>
-                                <li><a href="index.html#servicio">Servicio</a></li>
-                                <li><a href="about-us.html">Nosotros</a></li>
-                                <li><a href="contact.html">Contáctanos</a></li>
+                                <li><a href="index.php#conexion">Conexión</a></li>
+                                <li><a href="index.php#asignacion">Asignación</a></li>
+                                <li><a href="index.php#integracion">Intregación</a></li>
+                                <li><a href="index.php#whatsapp">WhatsApp</a></li>
+                                <li><a href="index.php#servicio">Servicio</a></li>
+                                <li><a href="about-us.php">Nosotros</a></li>
+                                <li><a href="contact.php">Contáctanos</a></li>
                             </ul>
                         </div>
 
@@ -366,9 +366,9 @@
                                 aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-globe-asia"></i>
                                 Español</a>
                             <div class="dropdown-menu dropupmenulagchanger" aria-labelledby="dropupmenulagchanger">
-                                <a class="dropdown-item" href="../en-US/index.html">English</a>
+                                <a class="dropdown-item" href="../en-US/index.php">English</a>
                                 <a class="dropdown-item" href="#">Español</a>
-                                <a class="dropdown-item" href="../pt-BR/index.html">Portugués</a>
+                                <a class="dropdown-item" href="../pt-BR/index.php">Portugués</a>
                             </div>
                         </div>
                     </div>

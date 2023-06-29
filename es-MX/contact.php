@@ -1,18 +1,36 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
+
+<?php
+session_start();
+
+// Verifica si existe el valor de utm_source en la sesión
+if (isset($_SESSION['utm_source'])) {
+    $utmSource = $_SESSION['utm_source'];
+} else {
+    $utmSource = 'n-a';
+}
+
+// Verifica si existe el valor de utm_medium en la sesión
+if (isset($_SESSION['utm_medium'])) {
+    $utmMedium = $_SESSION['utm_medium'];
+} else {
+    $utmMedium = 'n-a';
+}
+?>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level.">
+    <meta name="description" content="Impulsa tu estrategia de ventas con DragonCEM. Obtén insights valiosos sobre el potencial de tus leads, prioriza tus acciones comerciales y optimiza tus resultados. Descubre el poder de la gestión inteligente de leads y lleva tu negocio al siguiente nivel">
     <meta name="author" content="API Digital">
-    <link rel="canonical" href="https://www.dragoncem.com/contact.html" />
+    <link rel="canonical" href="https://www.dragoncem.com/contact.php" />
     <link rel="icon" href="../dragonico.png" />
-    <title>DragonCEM | Reports - US</title>
-    <meta property="og:locale" content="en_US" />
+    <title>DragonCEM | Contact - MX</title>
+    <meta property="og:locale" content="es_MX" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DragonCEM | Reports - US" />
-    <meta property="og:description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
+    <meta property="og:title" content="DragonCEM | Contact - MX" />
+    <meta property="og:description" content="Impulsa tu estrategia de ventas con DragonCEM. Obtén insights valiosos sobre el potencial de tus leads, prioriza tus acciones comerciales y optimiza tus resultados. Descubre el poder de la gestión inteligente de leads y lleva tu negocio al siguiente nivel" />
     <meta property="og:url" content="https://www.dragoncem.com" />
     <meta property="og:site_name" content="DragonCEM" />
     <meta property="og:image" content="../img/meta/Dragon-meta.png" />
@@ -86,7 +104,7 @@
             <span style="color:#003462; 
             font-family: 'Montserrat', sans-serif; 
             font-size:18px; 
-            font-weight: 600;">Loading</span>
+            font-weight: 600;">Cargando</span>
         </div>
     </div>
     <!-- end preloader -->
@@ -106,7 +124,7 @@
         <!-- Fixed navbar -->
         <nav id="coodiv-navbar-header" class="navbar navbar-expand-md fixed-header-layou top-header-fixed">
             <div class="container main-header-coodiv-s">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="w-logo" src="../img/header/logo.png" alt="" />
                     <img class="b-logo" src="../img/header/logo.png" alt="" />
                 </a>
@@ -119,42 +137,42 @@
                 <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mega-menu demos-dropdown dropdown">
-                            <a class="nav-link" href="index.html#conection">Conection</a>
+                            <a class="nav-link" href="index.php#conexion">Conexión</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#assignment">Assignment</a>
+                            <a class="nav-link" href="index.php#asignacion">Asignación</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#integration">Integration</a>
+                            <a class="nav-link" href="index.php#integracion">Integración</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#whatsapp">WhatsApp</a>
+                            <a class="nav-link" href="index.php#whatsapp">WhatsApp</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#service">Service</a>
+                            <a class="nav-link" href="index.php#servicio">Servicio</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">About Us</a>
+                            <a class="nav-link" href="about-us.php">Nosotros</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contáctanos</a>
                         </li>
                     </ul>
                 </div>
                 <ul class="header-user-info-coodiv">
                     <li class="dropdown">
                         <a role="button" id="header-login-dropdown" aria-haspopup="true" aria-expanded="false"
-                            target="_blank" href="https://app.dragoncem.com/login.php">Web App</a>
+                            target="_blank" href="https://app.dragoncem.com/login.php">Aplicación Web</a>
                         <!-- user header dropdown -->
                         <div class="dropdown-menu coodiv-dropdown-header user-login-dropdown"
                             aria-labelledby="header-login-dropdown">
-                            <form class="user-login-dropdown-form" action="signin.html" data-form="validate">
+                            <form class="user-login-dropdown-form" action="signin.php" data-form="validate">
                                 <div class="form-group username">
                                     <input type="email" name="username" placeholder="Your Email" class="form-control" />
                                     <i class="fal fa-at"></i>
@@ -176,81 +194,156 @@
                 </ul>
             </div>
         </nav>
+
+        <main class="container mt-25">
+
+            <div class="row">
+                <div class="col-md-5 pt-15">
+                    <span class="main-header-top-title">¿tienes preguntas acerca de DragonCEM?</span>
+                    <h3 class="mt-3 contact-us-hero-title coodiv-text-3" style="color:#003462;">Ponte en contacto con
+                        nostros.</h3>
+                    <div class="contact-us-social-icons">
+                        <a class="fb" href="https://www.facebook.com/search/top?q=dragoncem" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="tw" href="https://www.instagram.com/dragoncemmx/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="yb" href="https://www.linkedin.com/company/dragon-cem/mycompany/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <form class="row form-contain-home contact-page-form-send" id="ajax-contact" method="post"
+                        action="../mailer.php">
+                        <!-- start form -->
+                        <h5>Contáctanos<span>La tecnología avanza, ¿y tú?</span>
+                            <span>Únete a nosotros y mantente siempre un paso adelante</span>
+                        </h5>
+                        <div id="form-messages"></div>
+                        <!-- form message -->
+
+                        <div class="col-md-12">
+                            <!-- start col -->
+                            <div class="field input-field">
+                                <input class="form-contain-home-input" type="text" id="name" name="name"
+                                    placeholder="Nombre" required>
+                                <!-- input -->
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-md-12">
+                            <!-- start col -->
+                            <div class="field input-field">
+                                <input class="form-contain-home-input" type="email" id="email" name="email"
+                                    placeholder="Email" required>
+                                <!-- input -->
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-md-12">
+                            <!-- start col -->
+                            <div class="field input-field">
+                                <input class="form-contain-home-input" type="tel" id="tel" name="tel"
+                                    placeholder="Teléfono" required>
+                                <!-- input -->
+                                <i class="far fa-phone"></i>
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-md-12">
+                            <!-- start col -->
+                            <div class="field input-field">
+                                <textarea class="form-contain-home-input" id="message" name="message"
+                                    placeholder="Comentarios..." required></textarea>
+                                <!-- textarea -->
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="btn-holder-contect">
+                            <button type="submit">Enviar</button>
+                            <!-- submit button -->
+                        </div>
+
+                    </form>
+                    <!-- end form -->
+                    <!-- end form -->
+                    <!-- <script>
+                        $('#newLead').submit(function(event) {
+                            event.preventDefault();
+                            var email = $('#email').val();
+                            grecaptcha.ready(function() {
+                                grecaptcha.execute('6LeTJyomAAAAAB-x0J8d73sy3lQD_q3HI6InY63g', {action: 'mailer'}).then(function(token) {
+                                    $('#newLead').prepend('<input type="hidden" name="token" value="' + token + '">');
+                                    $('#newLead').prepend('<input type="hidden" name="action" value="mailer">');
+                                    $('#newLead').unbind('submit').submit();
+                                });;
+                            });
+                      });
+                    </script> -->
+                </div>
+            </div>
+
+        </main>
     </div>
-    <section class="pt-27 pb-27 bg-default-2">
+
+    <div id="mobile-form-contact-height"></div>
+    <section class="padding-20-0 mob-display-none">
         <div class="container">
-            <h5 class="title-default-coodiv-two">The data you need in one place</h5>
-
-            <div class="row justify-content-center mt-10">
-                <div class="col-md-3 tarjet-pointer" id="contqa" data-title="Quality report" data-video-url="../media/Quality.mp4">
-                    <div class="coodiv-feutres-black-version">
-                        <i style="background: #FF6C0E;" id="qa" class="fad fa-play"></i>
-                        <div class="text">
-                            <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">Drive excellence in service!</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">With the help of the quality survey that DragonCEM sends to the lead, in the Quality report, you will be able to know their level of satisfaction with the advisor who assisted them.</p>
-                        </div>
-                    </div>
+            <div class="row justify-content-start">
+                <div class="col-md-5">
+                    <h5 class="immediate-help-center-title">Obtén una cotización personalizada</h5>
+                    <p class="immediate-help-center-text">llama a:</p>
+                    <a class="immediate-help-center-link"
+                        href="tel:+525568269661">5568269661</a><br></br></br></br></br><br>
                 </div>
-
-                <div class="col-md-3 tarjet-pointer" id="contcal" data-title="Ratings report" data-video-url="../media/Calificaciones.mp4">
-                    <div class="coodiv-feutres-black-version">
-                        <i style="background: #00BDCD ;" id="cal" class="fad fa-play"></i>
-                        <div class="text">
-                            <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">High-value opportunities</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Your sales force is on the front line of contact with leads. With a glance, they can identify which leads have high interest and which ones need additional focus.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 tarjet-pointer" id="contcrm" data-title="CRM report" data-video-url="../media/CRM.mp4">
-                    <div class="coodiv-feutres-black-version">
-                        <i style="background: #19D3C5;" id="crm" class="fad fa-play"></i>
-                        <div class="text">
-                            <h5 class="coodiv-text-7 font-weight-bold mb-0" style="color:#003462;">CRM Journey</h5>
-                            <p class="coodiv-text-11 font-weight-light" style="color:#383B42;">Maintain impeccable synchronization between DragonCEM and your CRM system. The report provides detailed information about leads that have been successfully sent, ensuring efficient management of your customer database.</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
-    <div id="mobile-form-contact-height"></div>
+    <section class="pt-5 pb-25 position-relative">
+        <div class="container">
+        </div>
+    </section>
 
     <section class="footer-section">
-        <div class="container" id="mainSection">
+        <div class="container">
             <div class="row">
                 <div class="col-md-9 col-12 quiq-links-footer">
                     <div class="row justify-content-center">
                         <div class="col-md-4 col-4">
-                            <h5 class="quiq-links-footer-title">Learn more</h5>
+                            <h5 class="quiq-links-footer-title">Conoce más</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="index.html#conection">Conection</a></li>
-                                <li><a href="index.html#assignment">Assignment</a></li>
-                                <li><a href="index.html#integration">Integration</a></li>
-                                <li><a href="index.html#whatsapp">WhatsApp</a></li>
-                                <li><a href="index.html#service">Service</a></li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="#">Cont Us</a></li>
+                                <li><a href="index.php#conexion">Conexión</a></li>
+                                <li><a href="index.php#asignacion">Asignación</a></li>
+                                <li><a href="index.php#integracion">Intregación</a></li>
+                                <li><a href="index.php#whatsapp">WhatsApp</a></li>
+                                <li><a href="index.php#servicio">Servicio</a></li>
+                                <li><a href="about-us.php">Nosotros</a></li>
+                                <li><a href="#">Contáctanos</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 col-4">
-                            <h5 class="quiq-links-footer-title">Legals</h5>
+                            <h5 class="quiq-links-footer-title">Legales</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="legals.html">Privacy</a></li>
+                                <li><a href="legals.php">Aviso de privacidad</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 col-4 d-flex flex-column">
                             <div>
-                                <h5 class="quiq-links-footer-title">Switch</h5>
+                                <h5 class="quiq-links-footer-title">Conmmutador</h5>
                                 <ul class="quiq-links-footer-ul">
                                     <li><a href="tel:+525568269661">5568269661</a></li>
                             </div>
                             <div>
-                                <h5 class="quiq-links-footer-title">Get a quote here</h5>
+                                <h5 class="quiq-links-footer-title">Cotiza aquí</h5>
                                 <ul class="quiq-links-footer-ul">
                                     <li><a href="tel:+525568269661">5568269661</a></li>
                             </div>
@@ -288,18 +381,18 @@
             <div class="row justify-content-between final-footer-area mr-tp-40">
                 <div class="col-md col-12">
                     <div class="final-footer-area-text">DRAGON CEM ©
-                        <!-- <a target="_blank" href="https://coodiv.net/"> </a> -->All rights reserved.</div>
+                        <!-- <a target="_blank" href="https://coodiv.net/"> </a> -->Todos los derechos reservados</div>
                 </div>
                 <div class="col-md col-12 d-flex justify-content-end">
                     <div class="footer-lang-changer">
                         <div class="lang-changer-drop-up">
                             <a class="menu-btn-changer" role="button" id="dropupmenulagchanger" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-globe-asia"></i>
-                                english</a>
+                                Español</a>
                             <div class="dropdown-menu dropupmenulagchanger" aria-labelledby="dropupmenulagchanger">
-                                <a class="dropdown-item" href="#">English</a>
-                                <a class="dropdown-item" href="../es-MX/index.html">Español</a>
-                                <a class="dropdown-item" href="../pt-BR/index.html">Portugués</a>
+                                <a class="dropdown-item" href="../en-US/index.php">English</a>
+                                <a class="dropdown-item" href="#">Español</a>
+                                <a class="dropdown-item" href="../pt-BR/index.php">Portugués</a>
                             </div>
                         </div>
                     </div>

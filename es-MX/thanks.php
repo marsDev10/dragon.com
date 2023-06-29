@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="La plataforma que crece tu proceso de ventas" />
   <meta name="author" content="API Digital" />
-  <link rel="canonical" href="https://www.dragoncem.com/thanks.html" />
+  <link rel="canonical" href="https://www.dragoncem.com/thanks.php" />
   <link rel="icon" href="../dragonico.png" />
   <title>DragonCEM | Thank You - MX</title>
   <meta property="og:locale" content="es_MX" />
@@ -103,7 +103,7 @@
                   En breve uno de nuestros asesores se comunicará contigo.
                 </h6><br>
                 <div class="d-flex justify-content-start"><a class="main-header-btn coodiv-text-9 font-weight-bold"
-                    href="index.html">Volver <i class="fal fa-arrow-left"></i></a></div>
+                    href="index.php">Volver <i class="fal fa-arrow-left"></i></a></div>
 
               </li>
             </ul>
