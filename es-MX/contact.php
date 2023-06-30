@@ -2,21 +2,7 @@
 <html lang="es">
 
 <?php
-session_start();
 
-// // Verifica si existe el valor de utm_source en la sesión
-// if (isset($_SESSION['utm_source'])) {
-//     $utmSource = $_SESSION['utm_source'];
-// } else {
-//     $utmSource = 'n-a';
-// }
-
-// // Verifica si existe el valor de utm_medium en la sesión
-// if (isset($_SESSION['utm_medium'])) {
-//     $utmMedium = $_SESSION['utm_medium'];
-// } else {
-//     $utmMedium = 'n-a';
-// }
 ?>
 
 <head>
@@ -199,7 +185,7 @@ session_start();
 
             <div class="row">
                 <div class="col-md-5 pt-15">
-                    <span class="main-header-top-title">¿tienes preguntas acerca de DragonCEM?<?php echo $_SESSION['utm_source'].$_SESSION['utm_medium']; ?></span>
+                    <span class="main-header-top-title">¿tienes preguntas acerca de DragonCEM?<?php echo $sourceUtm.$mediumUtm; ?></span>
                     <h3 class="mt-3 contact-us-hero-title coodiv-text-3" style="color:#003462;">Ponte en contacto con
                         nostros.</h3>
                     <div class="contact-us-social-icons">
@@ -265,8 +251,8 @@ session_start();
                         </div>
                         <!-- end col -->
 
-                        <input type="hidden" name="utmSource" id="utmSource" value="<?php echo $utmSource; ?>" />
-                        <input type="hidden" name="utmMedium" id="utmMedium" value="<?php echo $utmMedium; ?>" />
+                        <input type="hidden" name="utmSource" id="utmSource" value="<?php echo $sourceUtm; ?>" />
+                        <input type="hidden" name="utmMedium" id="utmMedium" value="<?php echo $mediumUtm; ?>" />
 
                         <div class="btn-holder-contect">
                             <button type="submit">Enviar</button>

@@ -2,39 +2,32 @@
 <html lang="es">
 
 <?php
-session_start();
-
-// // Verifica si existe el valor de utm_source en la sesión
-// if (isset($_SESSION['utm_source'])) {
-//     $utmSource = $_SESSION['utm_source'];
-// } else {
-//     $utmSource = 'n-a';
-// }
-
-// // Verifica si existe el valor de utm_medium en la sesión
-// if (isset($_SESSION['utm_medium'])) {
-//     $utmMedium = $_SESSION['utm_medium'];
-// } else {
-//     $utmMedium = 'n-a';
-
-
-// }
 
 if (isset($_GET['utm_source'])) {
     $utmSource = $_GET['utm_source'];
-    $_SESSION['utm_source'] = $utmSource; 
 } else {
     $utmSource = ''; // Valor predeterminado si no se proporciona el parámetro
-    $_SESSION['utm_source'] = $utmSource;
 }
 
 if (isset($_GET['utm_medium'])) {
     $utmMedium = $_GET['utm_medium'];
-    $_SESSION['utm_medium'] = $utmMedium;
+    
 } else {
-    $utmMedium = ''; // Valor predeterminado si no se proporciona el parámetro
-    $_SESSION['utm_medium'] = $utmMedium;
+    $utmMedium = ''; // Valor predeterminado si no se proporciona el parámetr
 }
+
+// Obtener la parte de la URL después de la ruta base del sitio
+$url = $_SERVER['REQUEST_URI'];
+
+// Obtener la parte después de "es-MX/"
+$parteDespuesDeEsMX = substr($url, strpos($url, "es-MX/") + strlen("es-MX/"));
+
+if($parteDespuesDeEsMX == 'index.php'){
+    $utms = '';
+}else{
+    $utms = $parteDespuesDeEsMX;
+}
+
 ?>
 
 <head>
@@ -182,11 +175,11 @@ if (isset($_GET['utm_medium'])) {
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.php">Nosotros</a>
+                            <a class="nav-link" href="about-us.php<?php echo $utms; ?>">Nosotros</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contáctanos</a>
+                            <a class="nav-link" href="contact.php<?php echo $utms; ?>">Contáctanos</a>
                         </li>
                     </ul>
                 </div>
