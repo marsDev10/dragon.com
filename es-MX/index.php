@@ -4,18 +4,36 @@
 <?php
 session_start();
 
-// Verifica si existe el valor de utm_source en la sesión
-if (isset($_SESSION['utm_source'])) {
-    $utmSource = $_SESSION['utm_source'];
+// // Verifica si existe el valor de utm_source en la sesión
+// if (isset($_SESSION['utm_source'])) {
+//     $utmSource = $_SESSION['utm_source'];
+// } else {
+//     $utmSource = 'n-a';
+// }
+
+// // Verifica si existe el valor de utm_medium en la sesión
+// if (isset($_SESSION['utm_medium'])) {
+//     $utmMedium = $_SESSION['utm_medium'];
+// } else {
+//     $utmMedium = 'n-a';
+
+
+// }
+
+if (isset($_GET['utm_source'])) {
+    $utmSource = $_GET['utm_source'];
+    $_SESSION['utm_source'] = $utmSource; 
 } else {
-    $utmSource = 'n-a';
+    $utmSource = ''; // Valor predeterminado si no se proporciona el parámetro
+    $_SESSION['utm_source'] = $utmSource;
 }
 
-// Verifica si existe el valor de utm_medium en la sesión
-if (isset($_SESSION['utm_medium'])) {
-    $utmMedium = $_SESSION['utm_medium'];
+if (isset($_GET['utm_medium'])) {
+    $utmMedium = $_GET['utm_medium'];
+    $_SESSION['utm_medium'] = $utmMedium;
 } else {
-    $utmMedium = 'n-a';
+    $utmMedium = ''; // Valor predeterminado si no se proporciona el parámetro
+    $_SESSION['utm_medium'] = $utmMedium;
 }
 ?>
 
@@ -206,7 +224,7 @@ if (isset($_SESSION['utm_medium'])) {
                 <div class="carousel-cell">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-12 white-text text-center">
-                            <h3 class="main-header-title coodiv-text-3">Poderosa plataforma basada en la nube </h3>
+                            <h3 class="main-header-title coodiv-text-3">Poderosa plataforma basada en la nube <?php echo $_SESSION['utm_source'].$_SESSION['utm_medium']; ?> </h3>
                             <p class="main-header-sub-title coodiv-text-10 font-weight-light mb-10">Con funciones diseñadas para potenciar tus estrategias de marketing, conectar con tus clientes y gestionar a tu equipo comercial</p>
                             <div class="d-flex justify-content-center"><button
                                     class="main-header-btn coodiv-text-9 font-weight-bold" data-toggle="modal"

@@ -2,7 +2,7 @@
 <html lang="es_MX">
 
 <?php
-session_start();
+// session_start();
 ?>
 
 <head>
@@ -75,29 +75,29 @@ session_start();
    
     <?php
     // Obtén la URL actual
-    $currentUrl = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    // $currentUrl = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
     // Analiza la URL y obtén sus componentes
-    $urlComponents = parse_url($currentUrl);
+    // $urlComponents = parse_url($currentUrl);
 
     // Verifica si existen parámetros de consulta en la URL
-    if (isset($urlComponents['query'])) {
+    // if (isset($urlComponents['query'])) {
         // Analiza los parámetros de consulta
-        parse_str($urlComponents['query'], $queryParameters);
+        // parse_str($urlComponents['query'], $queryParameters);
 
         // Verifica si existe el parámetro "utm_source"
-        if (isset($queryParameters['utm_source']) && isset($queryParameters['utm_medium'])) {
-            $utmSource = $queryParameters['utm_source'];
-            $utmMedium = $queryParameters['utm_medium'];
+        // if (isset($queryParameters['utm_source']) && isset($queryParameters['utm_medium'])) {
+            // $utmSource = $queryParameters['utm_source'];
+            // $utmMedium = $queryParameters['utm_medium'];
 
             // Guarda el valor de utm_source en la sesión
-            $_SESSION['utm_source'] = $utmSource;
-            $_SESSION['utm_medium'] = $utmMedium;
+            // $_SESSION['utm_source'] = $utmSource;
+            // $_SESSION['utm_medium'] = $utmMedium;
 
             // echo 'el utm_source es: '.$_SESSION['utm_source'];
             // echo 'el utm_medium es: '.$_SESSION['utm_medium'];
-        }
-    }
+    //     }
+    // }
 
     ?>
 
