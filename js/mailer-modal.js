@@ -19,7 +19,7 @@ $(function() {
 
 			// $(formMessages).text(response);
 
-			window.location.href = "thanks.html";
+			window.location.href = "thanks.php";
 
 			$('#name').val('');
 			$('#email').val('');
