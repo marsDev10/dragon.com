@@ -3,12 +3,6 @@
 
 <?php
 session_start();
-
-  // Obtén la URL actual
-  $currentUrl = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-
-  // Analiza la URL y obtén sus componentes
-  $urlComponents = parse_url($currentUrl);
 ?>
 
 <head>
@@ -80,6 +74,11 @@ session_start();
 <body>
    
     <?php
+    // Obtén la URL actual
+    $currentUrl = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+    // Analiza la URL y obtén sus componentes
+    $urlComponents = parse_url($currentUrl);
 
     // Verifica si existen parámetros de consulta en la URL
     if (isset($urlComponents['query'])) {
@@ -95,8 +94,8 @@ session_start();
             $_SESSION['utm_source'] = $utmSource;
             $_SESSION['utm_medium'] = $utmMedium;
 
-            echo 'el utm_source es: '.$_SESSION['utm_source'];
-            echo 'el utm_medium es: '.$_SESSION['utm_medium'];
+            // echo 'el utm_source es: '.$_SESSION['utm_source'];
+            // echo 'el utm_medium es: '.$_SESSION['utm_medium'];
         }
     }
 

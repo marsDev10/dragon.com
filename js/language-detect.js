@@ -12,16 +12,16 @@ $(document).ready(function(){
         
         // Add your language section URLs and corresponding language codes here
         var languageSections = {
-            "en": "https://www.dragoncem.com/v3/en-US/",
-            "en-US": "https://www.dragoncem.com/v3/en-US/",
+            "en": "http://127.0.0.1/Sitio%20Web/en-US/",
+            "en-US": "http://127.0.0.1/Sitio%20Web/en-US/",
 
-            "es": "https://www.dragoncem.com/v3/es-MX/",
-            "es-US": "https://www.dragoncem.com/v3/es-MX/",
-            "es-MX": "https://www.dragoncem.com/v3/es-MX/",
-            "es-419": "https://www.dragoncem.com/v3/es-MX/",
+            "es": "http://127.0.0.1/Sitio%20Web/es-MX/",
+            "es-US": "http://127.0.0.1/Sitio%20Web/es-MX/",
+            "es-MX": "http://127.0.0.1/Sitio%20Web/es-MX/",
+            "es-419": "http://127.0.0.1/Sitio%20Web/es-MX/",
             
-            "pt": "https://www.dragoncem.com/v3/pt-BR/",
-            "pt-BR": "https://www.dragoncem.com/v3/pt-BR/",
+            "pt": "http://127.0.0.1/Sitio%20Web/pt-BR/",
+            "pt-BR": "http://127.0.0.1/Sitio%20Web/pt-BR/",
             // Add more language sections as needed
         };
         
