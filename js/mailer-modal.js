@@ -25,6 +25,8 @@ $(function() {
 			$('#email').val('');
 			$('#tel').val('');
 			$('#message').val('');
+			$('#utmSource').val('');
+			$('#utmMedium').val('');
 		})
 		.fail(function(data) {
 			$(formMessages).removeClass('success');

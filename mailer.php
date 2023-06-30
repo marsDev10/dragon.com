@@ -6,6 +6,8 @@
         $sender = 'website@dragoncem.com';
         $phone = $_POST['tel'];
         $message = trim($_POST["message"]);
+        $utmSource = $_POST['utmSource'];
+        $utmMedium = $_POST['utmMedium'];
 
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             http_response_code(400);
@@ -19,7 +21,9 @@
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n";
         $email_content .= "Telefono: $phone\n\n";
-        $email_content .= "Message:\n$message\n";
+        $email_content .= "Message:\n$message\n\n";
+        $email_content .= "UTM Source: $utmSource\n";
+        $email_content .= "UTM Medium: $utmMedium\n";
 
         $email_headers = "From: $name <$sender>";
 

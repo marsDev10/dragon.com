@@ -103,7 +103,7 @@
                   One of our advisors will contact you shortly.
                 </h6><br>
                 <div class="d-flex justify-content-start"><a class="main-header-btn coodiv-text-9 font-weight-bold"
-                    href="index.php">Volver <i class="fal fa-arrow-left"></i></a></div>
+                    href="index.php">Go back <i class="fal fa-arrow-left"></i></a></div>
 
               </li>
             </ul>

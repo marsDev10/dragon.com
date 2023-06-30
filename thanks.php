@@ -4,18 +4,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="La plataforma que crece tu proceso de ventas" />
+  <meta name="description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
   <meta name="author" content="API Digital" />
-  <link rel="canonical" href="https://www.dragoncem.com/thanks.html" />
+  <link rel="canonical" href="https://www.dragoncem.com/thanks.php" />
   <link rel="icon" href="dragonico.png" />
-  <title>DragonCEM | Gracias</title>
+  <title>DragonCEM | Thank You</title>
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="DragonCEM | Gracias" />
-  <meta property="og:description" content="La plataforma que crece tu proceso de ventas" />
+  <meta property="og:description" content="Boost your sales strategy with DragonCEM. Get valuable insights into the potential of your leads, prioritize your sales actions, and optimize your results. Discover the power of intelligent lead management and take your business to the next level." />
   <meta property="og:url" content="https://www.dragoncem.com/" />
   <meta property="og:site_name" content="DragonCEM" />
-  <meta property="og:image" content="" />
+  <meta property="og:image" content="img/meta/Dragon-meta.png" />
   <meta property="og:image:width" content="1800" />
   <meta property="og:image:height" content="900" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -94,16 +94,16 @@
         <div class="row justify-content-start">
           <div class="col-md-6 col-12 white-text">
             <h4 class="main-header-title coodiv-text-3 font-weight-bold pt-20">
-              ¡Gracias por contactarnos!
+            Thank you for contacting us!
             </h4>
             <ul class="main-header-features">
               <li>
                 <i class="fal fa-check"></i>
                 <h6>
-                  En breve uno de nuestros asesores se comunicará contigo.
+                One of our advisors will contact you shortly.
                 </h6><br>
                 <div class="d-flex justify-content-start"><a class="main-header-btn coodiv-text-9 font-weight-bold"
-                    href="index.html">Volver <i class="fal fa-arrow-left"></i></a></div>
+                    href="index.php">Go back <i class="fal fa-arrow-left"></i></a></div>
 
               </li>
             </ul>
