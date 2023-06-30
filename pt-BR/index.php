@@ -1608,6 +1608,8 @@ if (isset($_SESSION['utm_medium'])) {
                     </div>
                   </div>
                   <!-- end col -->
+                  <input type="hidden" name="utmSource" id="utmSource" value="<?php echo $utmSource; ?>" />
+                  <input type="hidden" name="utmMedium" id="utmMedium" value="<?php echo $utmMedium; ?>" />
 
                   <div class="btn-holder-contect">
                     <button type="submit">Enviar</button>

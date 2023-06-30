@@ -12,16 +12,16 @@ $(document).ready(function(){
         
         // Add your language section URLs and corresponding language codes here
         var languageSections = {
-            "en": "https://dragoncem.com/v3/en-US/",
-            "en-US": "https://dragoncem.com/v3/en-US/",
+            "en": "http://127.0.0.1/sitio%20web/en-US/",
+            "en-US": "http://127.0.0.1/sitio%20web/en-US/",
 
-            "es": "https://dragoncem.com/v3/es-MX/",
-            "es-US": "https://dragoncem.com/v3/es-MX/",
-            "es-MX": "https://dragoncem.com/v3/es-MX/",
-            "es-419": "https://dragoncem.com/v3/es-MX/",
+            "es": "http://127.0.0.1/sitio%20web/es-MX/",
+            "es-US": "http://127.0.0.1/sitio%20web/es-MX/",
+            "es-MX": "http://127.0.0.1/sitio%20web/es-MX/",
+            "es-419": "http://127.0.0.1/sitio%20web/es-MX/",
             
-            "pt": "https://dragoncem.com/v3/pt-BR/",
-            "pt-BR": "https://dragoncem.com/v3/pt-BR/",
+            "pt": "http://127.0.0.1/sitio%20web/pt-BR/",
+            "pt-BR": "http://127.0.0.1/sitio%20web/pt-BR/",
             // Add more language sections as needed
         };
         
@@ -30,7 +30,7 @@ $(document).ready(function(){
             window.location.href = languageSections[browserLanguage];
         } else {
             // Redirect to a default language section if browser language is not supported
-            window.location.href = "https://dragoncem.com/v3/es-MX/";
+            window.location.href = "http://127.0.0.1/sitio%20web/es-MX/";
         }
     }
     
