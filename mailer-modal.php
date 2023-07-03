@@ -29,7 +29,8 @@
 
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             http_response_code(200);
-            echo "Thank You! Your message has been sent.";
+            header("Location: thanks.php");
+            exit();
         } else {
             http_response_code(500);
             echo "Oops! something was wrong.";
