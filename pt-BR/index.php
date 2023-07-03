@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
 
-<?php
-session_start();
-
-// Verifica si existe el valor de utm_source en la sesión
-if (isset($_SESSION['utm_source'])) {
-    $utmSource = $_SESSION['utm_source'];
-} else {
-    $utmSource = 'n-a';
-}
-
-// Verifica si existe el valor de utm_medium en la sesión
-if (isset($_SESSION['utm_medium'])) {
-    $utmMedium = $_SESSION['utm_medium'];
-} else {
-    $utmMedium = 'n-a';
-}
-?>
-
   <head>
     <meta charset="utf-8" />
     <meta
@@ -1608,8 +1590,8 @@ if (isset($_SESSION['utm_medium'])) {
                     </div>
                   </div>
                   <!-- end col -->
-                  <input type="hidden" name="utmSource" id="utmSource" value="<?php echo $utmSource; ?>" />
-                  <input type="hidden" name="utmMedium" id="utmMedium" value="<?php echo $utmMedium; ?>" />
+                  <input type="hidden" name="utmSource" id="utmSource" value="" />
+                  <input type="hidden" name="utmMedium" id="utmMedium" value="" />
 
                   <div class="btn-holder-contect">
                     <button type="submit">Enviar</button>
@@ -1672,6 +1654,79 @@ if (isset($_SESSION['utm_medium'])) {
     <!-- jquery -->
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            console.log('documento listo');    
+
+            // Limpiar los valores de las UTM almacenados en localStorage
+            // localStorage.removeItem('utmSource');
+            // localStorage.removeItem('utmMedium');
+
+            //---------------------------------------------------------------------------------------------//
+
+            if(localStorage.getItem('utmSource') === 'null' || localStorage.getItem('utmSource') === null){
+                var sourceStatus = false;
+                console.log('source es nulo');
+            }else{
+                var sourceStatus = true;
+                console.log('source no es nulo');
+            }
+
+            if(localStorage.getItem('utmMedium') === 'null' || localStorage.getItem('utmMedium') === null){
+                var mediumStatus = false;
+                console.log('medium es nulo');
+            }else{
+                var mediumStatus = true;
+                console.log('medium no es nulo')
+            }
+
+            //---------------------------------------------------------------------------------------------//
+
+            if(sourceStatus == false && mediumStatus == false){
+
+                console.log('se hace la funcion')
+
+                // Obtener los parámetros de la URL
+                var urlParams = new URLSearchParams(window.location.search);
+
+                // Obtener los valores de las UTM
+                var utmSourceParam = urlParams.get('utm_source');
+                var utmMediumParam = urlParams.get('utm_medium');
+
+                // Guardar los valores de las UTM en localStorage
+                localStorage.setItem('utmSource', utmSourceParam);
+                localStorage.setItem('utmMedium', utmMediumParam);
+
+                // Obtener los valores de las UTM desde localStorage
+                var utmSource = localStorage.getItem('utmSource');
+                var utmMedium = localStorage.getItem('utmMedium');
+
+                //Cambiamos valores en los campos ocultos para enviarlos por formulario
+                $('#utmSource').val(utmSource);
+                $('#utmMedium').val(utmMedium);
+
+                console.log('source: '+utmSource)
+                console.log('medium: '+utmMedium) 
+
+            }else{
+
+                console.log('no se hace la funcion')
+                // Obtener los valores de las UTM desde localStorage
+                var utmSource = localStorage.getItem('utmSource');
+                var utmMedium = localStorage.getItem('utmMedium');
+
+                 //Cambiamos valores en los campos ocultos para enviarlos por formulario
+                $('#utmSource').val(utmSource);
+                $('#utmMedium').val(utmMedium);
+
+                console.log('source: '+utmSource)
+                console.log('medium: '+utmMedium) 
+                
+            }
+        })
+    </script>
+
     <!-- bootstrap JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- template JavaScript -->

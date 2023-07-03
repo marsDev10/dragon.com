@@ -20,7 +20,7 @@
 
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n";
-        $email_content .= "Phone: $phone\n\n";
+        $email_content .= "Telefono: $phone\n\n";
         $email_content .= "Message:\n$message\n\n";
         $email_content .= "UTM Source: $utmSource\n";
         $email_content .= "UTM Medium: $utmMedium\n";
@@ -29,7 +29,7 @@
 
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             http_response_code(200);
-            exit();
+            echo "Thank You! Your message has been sent.";
         } else {
             http_response_code(500);
             echo "Oops! something was wrong.";

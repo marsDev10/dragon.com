@@ -1,24 +1,6 @@
 <!doctype html>
 <html lang="en">
 
-<?php
-session_start();
-
-// Verifica si existe el valor de utm_source en la sesión
-if (isset($_SESSION['utm_source'])) {
-    $utmSource = $_SESSION['utm_source'];
-} else {
-    $utmSource = 'n-a';
-}
-
-// Verifica si existe el valor de utm_medium en la sesión
-if (isset($_SESSION['utm_medium'])) {
-    $utmMedium = $_SESSION['utm_medium'];
-} else {
-    $utmMedium = 'n-a';
-}
-?>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -263,8 +245,8 @@ if (isset($_SESSION['utm_medium'])) {
                         </div>
                         <!-- end col -->
 
-                        <input type="hidden" name="utmSource" id="utmSource" value="<?php echo $utmSource; ?>" />
-                        <input type="hidden" name="utmMedium" id="utmMedium" value="<?php echo $utmMedium; ?>" />
+                        <input type="hidden" name="utmSource" id="utmSource" value="" />
+                        <input type="hidden" name="utmMedium" id="utmMedium" value="" />
 
                         <div class="btn-holder-contect">
                             <button type="submit">Submit</button>
@@ -405,6 +387,30 @@ if (isset($_SESSION['utm_medium'])) {
     <!-- jquery -->
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            console.log('documento contacto listo');
+
+            // Obtener los valores de las UTM desde localStorage
+            var utmSource = localStorage.getItem('utmSource');
+            var utmMedium = localStorage.getItem('utmMedium');
+
+            //Cambiamos valores en los campos ocultos para enviarlos por formulario
+            $('#utmSource').val(utmSource);
+            $('#utmMedium').val(utmMedium);
+
+            //Cambiamos valores en los campos ocultos para enviarlos por formulario
+            $('#utmSource').val(utmSource);
+            $('#utmMedium').val(utmMedium);
+
+            // Utilizar los valores de las UTM en los formularios u otras páginas según sea necesario
+            console.log('source'+utmSource);
+            console.log('medium'+utmMedium);
+           
+        })
+    </script>
+    
     <!-- bootstrap JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- template JavaScript -->

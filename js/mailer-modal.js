@@ -18,6 +18,8 @@ $(function() {
 			// $(formMessages).addClass('success');
 
 			// $(formMessages).text(response);
+
+			//Reseteamos las variables UTM del localStorage
 			localStorage.removeItem('utmSource');
             localStorage.removeItem('utmMedium');
 
