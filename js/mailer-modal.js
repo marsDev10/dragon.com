@@ -18,6 +18,8 @@ $(function() {
 			// $(formMessages).addClass('success');
 
 			// $(formMessages).text(response);
+			localStorage.removeItem('utmSource');
+            localStorage.removeItem('utmMedium');
 
 			window.location.href = "thanks.php";
 

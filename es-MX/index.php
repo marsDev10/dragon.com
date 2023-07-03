@@ -1132,8 +1132,8 @@
             console.log('documento listo');    
 
             // Limpiar los valores de las UTM almacenados en localStorage
-            localStorage.removeItem('utmSource');
-            localStorage.removeItem('utmMedium');
+            // localStorage.removeItem('utmSource');
+            // localStorage.removeItem('utmMedium');
 
             //---------------------------------------------------------------------------------------------//
 
