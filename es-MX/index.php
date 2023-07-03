@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<?php
-
-if (isset($_GET['utm_source'])) {
-    $utmSource = $_GET['utm_source'];
-} else {
-    $utmSource = ''; // Valor predeterminado si no se proporciona el parámetro
-}
-
-if (isset($_GET['utm_medium'])) {
-    $utmMedium = $_GET['utm_medium'];
-    
-} else {
-    $utmMedium = ''; // Valor predeterminado si no se proporciona el parámetr
-}
-
-// Obtener la parte de la URL después de la ruta base del sitio
-$url = $_SERVER['REQUEST_URI'];
-
-// Obtener la parte después de "es-MX/"
-$parteDespuesDeEsMX = substr($url, strpos($url, "es-MX/") + strlen("es-MX/"));
-
-if($parteDespuesDeEsMX == 'index.php'){
-    $utms = '';
-}else{
-    $utms = $parteDespuesDeEsMX;
-}
-
-?>
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -175,11 +146,11 @@ if($parteDespuesDeEsMX == 'index.php'){
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.php<?php echo $utms; ?>">Nosotros</a>
+                            <a class="nav-link" href="about-us.php">Nosotros</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php<?php echo $utms; ?>">Contáctanos</a>
+                            <a class="nav-link" href="contact.php">Contáctanos</a>
                         </li>
                     </ul>
                 </div>
@@ -217,7 +188,7 @@ if($parteDespuesDeEsMX == 'index.php'){
                 <div class="carousel-cell">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-12 white-text text-center">
-                            <h3 class="main-header-title coodiv-text-3">Poderosa plataforma basada en la nube <?php echo $_SESSION['utm_source'].$_SESSION['utm_medium']; ?> </h3>
+                            <h3 class="main-header-title coodiv-text-3">Poderosa plataforma basada en la nube </h3>
                             <p class="main-header-sub-title coodiv-text-10 font-weight-light mb-10">Con funciones diseñadas para potenciar tus estrategias de marketing, conectar con tus clientes y gestionar a tu equipo comercial</p>
                             <div class="d-flex justify-content-center"><button
                                     class="main-header-btn coodiv-text-9 font-weight-bold" data-toggle="modal"
@@ -1105,8 +1076,8 @@ if($parteDespuesDeEsMX == 'index.php'){
                                 </div>
                                 <!-- end col -->
 
-                                <input type="hidden" name="utmSource" id="utmSource" value="<?php echo $utmSource; ?>" />
-                                <input type="hidden" name="utmMedium" id="utmMedium" value="<?php echo $utmMedium; ?>" />
+                                <input type="hidden" name="utmSource" id="utmSource" value="" />
+                                <input type="hidden" name="utmMedium" id="utmMedium" value="" />
 
                                 <div class="btn-holder-contect">
                                     <button type="submit">Enviar</button>
@@ -1155,6 +1126,79 @@ if($parteDespuesDeEsMX == 'index.php'){
     <!-- jquery -->
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            console.log('documento listo');    
+
+            // Limpiar los valores de las UTM almacenados en localStorage
+            localStorage.removeItem('utmSource');
+            localStorage.removeItem('utmMedium');
+
+            //---------------------------------------------------------------------------------------------//
+
+            if(localStorage.getItem('utmSource') === 'null' || localStorage.getItem('utmSource') === null){
+                var sourceStatus = false;
+                console.log('source es nulo');
+            }else{
+                var sourceStatus = true;
+                console.log('source no es nulo');
+            }
+
+            if(localStorage.getItem('utmMedium') === 'null' || localStorage.getItem('utmMedium') === null){
+                var mediumStatus = false;
+                console.log('medium es nulo');
+            }else{
+                var mediumStatus = true;
+                console.log('medium no es nulo')
+            }
+
+            //---------------------------------------------------------------------------------------------//
+
+            if(sourceStatus == false && mediumStatus == false){
+
+                console.log('se hace la funcion')
+
+                // Obtener los parámetros de la URL
+                var urlParams = new URLSearchParams(window.location.search);
+
+                // Obtener los valores de las UTM
+                var utmSourceParam = urlParams.get('utm_source');
+                var utmMediumParam = urlParams.get('utm_medium');
+
+                // Guardar los valores de las UTM en localStorage
+                localStorage.setItem('utmSource', utmSourceParam);
+                localStorage.setItem('utmMedium', utmMediumParam);
+
+                // Obtener los valores de las UTM desde localStorage
+                var utmSource = localStorage.getItem('utmSource');
+                var utmMedium = localStorage.getItem('utmMedium');
+
+                //Cambiamos valores en los campos ocultos para enviarlos por formulario
+                $('#utmSource').val(utmSource);
+                $('#utmMedium').val(utmMedium);
+
+                console.log('source: '+utmSource)
+                console.log('medium: '+utmMedium) 
+
+            }else{
+
+                console.log('no se hace la funcion')
+                // Obtener los valores de las UTM desde localStorage
+                var utmSource = localStorage.getItem('utmSource');
+                var utmMedium = localStorage.getItem('utmMedium');
+
+                 //Cambiamos valores en los campos ocultos para enviarlos por formulario
+                $('#utmSource').val(utmSource);
+                $('#utmMedium').val(utmMedium);
+
+                console.log('source: '+utmSource)
+                console.log('medium: '+utmMedium) 
+                
+            }
+        })
+    </script>
+
     <!-- bootstrap JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- template JavaScript -->

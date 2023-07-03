@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="es">
 
-<?php
-
-?>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -185,7 +181,7 @@
 
             <div class="row">
                 <div class="col-md-5 pt-15">
-                    <span class="main-header-top-title">¿tienes preguntas acerca de DragonCEM?<?php echo $sourceUtm.$mediumUtm; ?></span>
+                    <span class="main-header-top-title">¿tienes preguntas acerca de DragonCEM?</span>
                     <h3 class="mt-3 contact-us-hero-title coodiv-text-3" style="color:#003462;">Ponte en contacto con
                         nostros.</h3>
                     <div class="contact-us-social-icons">
@@ -251,8 +247,8 @@
                         </div>
                         <!-- end col -->
 
-                        <input type="hidden" name="utmSource" id="utmSource" value="<?php echo $sourceUtm; ?>" />
-                        <input type="hidden" name="utmMedium" id="utmMedium" value="<?php echo $mediumUtm; ?>" />
+                        <input type="hidden" name="utmSource" id="utmSource" value="" />
+                        <input type="hidden" name="utmMedium" id="utmMedium" value="" />
 
                         <div class="btn-holder-contect">
                             <button type="submit">Enviar</button>
@@ -393,6 +389,30 @@
     <!-- jquery -->
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            console.log('documento contacto listo');
+
+            // Obtener los valores de las UTM desde localStorage
+            var utmSource = localStorage.getItem('utmSource');
+            var utmMedium = localStorage.getItem('utmMedium');
+
+            //Cambiamos valores en los campos ocultos para enviarlos por formulario
+            $('#utmSource').val(utmSource);
+            $('#utmMedium').val(utmMedium);
+
+            //Cambiamos valores en los campos ocultos para enviarlos por formulario
+            $('#utmSource').val(utmSource);
+            $('#utmMedium').val(utmMedium);
+
+            // Utilizar los valores de las UTM en los formularios u otras páginas según sea necesario
+            console.log('source'+utmSource);
+            console.log('medium'+utmMedium);
+           
+        })
+    </script>
+
     <!-- bootstrap JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- template JavaScript -->

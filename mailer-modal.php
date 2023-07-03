@@ -29,7 +29,6 @@
 
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             http_response_code(200);
-            header("Location: thanks.html");
             exit();
         } else {
             http_response_code(500);

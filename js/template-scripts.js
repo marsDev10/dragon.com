@@ -82,8 +82,6 @@
     }
     });
 
-
-	
 	// header resize//
 	(function () {
 	var coodivheadertest = document.getElementById("coodiv-header");
