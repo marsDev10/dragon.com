@@ -23,6 +23,9 @@
         $email_content .= "Email: $email\n";
         $email_content .= "Telefono: $phone\n\n";
         $email_content .= "Message:\n$message\n\n";
+
+        $email_content .= "Origen: $origen\n\n";
+
         $email_content .= "UTM Source: $utmSource\n";
         $email_content .= "UTM Medium: $utmMedium\n";
 
