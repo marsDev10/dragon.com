@@ -8,6 +8,7 @@
         $message = trim($_POST["message"]);
         $utmSource = $_POST['utmSource'];
         $utmMedium = $_POST['utmMedium'];
+        $origen = $_POST['origen'];
 
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             http_response_code(400);
@@ -29,8 +30,22 @@
 
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             http_response_code(200);
-            header("Location: thanks.php");
+            if ($origen == 'es-MX'){
+                header("Location: es-MX/thanks.php");
+
+            } else if ($origen == 'en-US'){
+                header("Location: en-US/thanks.php");
+
+            } else if ($origen == 'pt-BR'){
+                header("Location: pt-BR/thanks.php");
+
+            } else {
+                header("Location: thanks.php");
+
+            }
+            
             exit();
+
         } else {
             http_response_code(500);
             echo "Oops! something was wrong.";
