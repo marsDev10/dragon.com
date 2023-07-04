@@ -24,19 +24,7 @@ $(function() {
 			localStorage.removeItem('utmSource');
             localStorage.removeItem('utmMedium');
 
-			if(origen == 'es-MX'){
-				window.location.href = "es-MX/thanks.php";
-
-			}else if(origen == 'en-US'){
-				window.location.href = "en-US/thanks.php";
-
-			}else if(origen == 'pt-BR'){
-				window.location.href = "pt-BR/thanks.php";
-
-			}else{
-				window.location.href = "thanks.php";
-				
-			}
+			window.location.href = "thanks.php";
 
 			$('#name').val('');
 			$('#email').val('');
