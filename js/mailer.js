@@ -7,6 +7,7 @@ $(function() {
 		e.preventDefault();
 
 		var formData = $(form).serialize();
+		var origen = $('#origen').val();
 
 		$.ajax({
 			type: 'POST',
@@ -23,7 +24,19 @@ $(function() {
 			localStorage.removeItem('utmSource');
             localStorage.removeItem('utmMedium');
 
-			window.location.href = "thanks.php";
+			if(origen == 'es-MX'){
+				window.location.href = "es-MX/thanks.php";
+
+			}else if(origen == 'en-US'){
+				window.location.href = "en-US/thanks.php";
+
+			}else if(origen == 'pt-BR'){
+				window.location.href = "pt-BR/thanks.php";
+
+			}else{
+				window.location.href = "thanks.php";
+				
+			}
 
 			$('#name').val('');
 			$('#email').val('');
