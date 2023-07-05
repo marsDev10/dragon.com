@@ -15,7 +15,7 @@
             echo "Oops! There was a problem with your submission. Please complete the form and try again.";
             exit;
         }
-        $recipient = "dragoncem@in.parseur.com";
+        $recipient = "luigyalfar64@gmail.com";
 
         $subject = "New contact from dragoncem.com";
 
