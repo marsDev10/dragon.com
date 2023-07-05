@@ -167,7 +167,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 help-center-header mr-tp-80">
-                    <h5 class="help-center-title"><span>Última revisión: 22-mayo-2023</span>
+                    <h5 class="help-center-title"><span>Última revisión: 22 de mayo de 2023</span>
                 </div>
             </div>
             <div class="row justify-content-start mr-tp-20">

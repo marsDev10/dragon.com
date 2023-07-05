@@ -160,7 +160,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 help-center-header mr-tp-80">
-                    <h5 class="help-center-title"><span>Last revision: 22-March-2021</span>
+                    <h5 class="help-center-title"><span>Last revision: may 22, 2023</span>
                 </div>
             </div>
             <div class="row justify-content-start mr-tp-20">
@@ -171,7 +171,7 @@
                     </h4>
                     <h4>Origin of the information</h4>
                     <p><strong>Primary:</strong> Portal <a href="http://www.dragoncem.com">www.dragoncem.com</a></p>
-                    <p><strong>Secondary:</strong>Through e-mail and/or telephone call and/or any other digital means follow-up of the information obtained through the primary channel.</p>
+                    <p><strong>Secondary:</strong> Through e-mail and/or telephone call and/or any other digital means follow-up of the information obtained through the primary channel.</p>
 
                     <h4>Primary Information Collected:</h4>
                     <ul>
