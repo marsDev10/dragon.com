@@ -167,7 +167,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 help-center-header mr-tp-80">
-                    <h5 class="help-center-title"><span>Última revisión: 22-marzo-2021</span>
+                    <h5 class="help-center-title"><span>Última revisión: 22-mayo-2023</span>
                 </div>
             </div>
             <div class="row justify-content-start mr-tp-20">
@@ -178,7 +178,7 @@
                         protección del a misma.</h4>
                     <h4>Origen de la Información</h4>
                     <p><strong>Primaria:</strong> Portal <a href="http://www.dragoncem.com">www.dragoncem.com</a></p>
-                    <p><strong>Secundaria:</strong>Vía correo electrónico y/o llamada telefónica y/o cualquier otro
+                    <p><strong>Secundaria:</strong> Vía correo electrónico y/o llamada telefónica y/o cualquier otro
                         medio digital en seguimiento de información conseguida por la vía primaria.</p>
 
                     <h4>Información Primaria recabada:</h4>
