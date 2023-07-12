@@ -1139,49 +1139,39 @@
     </section>
     <hr style="width: 50%; border-color: #21b6c7; border-width: 1px" />
 
-    <!-- <section class="our-pertners pt-10 pb-10">
-      <div class="container">
-        <h5 class="title-default-coodiv-two">
-            Família DragonCEM<span class="mr-tp-10"
-            >A qualidade do DragonCEM é respaldada pela importância que damos aos nossos clientes.</span
-          >
-        </h5>
-        <div class="owl-carousel pertners-carousel owl-theme">
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo1.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo2.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo3.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo4.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo5.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo1.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo2.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo3.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo4.png" alt="" /> </a>
-          </div>
-          <div class="item">
-            <a href="#"> <img src="../img/pertners/logo5.png" alt="" /> </a>
-          </div>
+    <section class="our-pertners pt-12 pb-12">
+        <div class="container">
+            <h5 class="title-default-coodiv-two">Família DragonCEM<span class="mr-tp-10">A qualidade da DragonCEM respaldada pela importância dos nossos clientes</span></h5>
+            <div class="owl-carousel pertners-carousel owl-theme">
+                <div class="item">
+                    <a> <img src="../img/clients/LogoSmartFit.png" alt="SMARTFIT" /> </a>
+                </div>
+                <div class="item">
+                    <a> <img src="../img/clients/LogoShell.png" alt="SHELL" /> </a>
+                </div>
+                <div class="item">
+                    <a> <img src="../img/clients/LogoProfusa.png" alt="PRUFUSA" /> </a>
+                </div>
+                <div class="item">
+                    <a> <img src="../img/clients/LogoSadasi.png" alt="SADASI" /> </a>
+                </div>
+                <div class="item">
+                    <a> <img src="../img/clients/LogociudadMaderas.png" alt="CIUDAD MADERAS" /> </a>
+                </div>
+                <div class="item">
+                    <a> <img src="../img/clients/LogoDMI.png" alt="GRUPO DMI" /> </a>
+                </div>
+                <div class="item">
+                    <a> <img src="../img/clients/Logodelparque.png" alt="DEL PARQUE" /> </a>
+                </div>
+                <div class="item">
+                    <a> <img src="../img/clients/LogoRemax.png" alt="REMAX" /> </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </section> -->
+    </section>
 
-    <section class="py-25 bg-default-2">
+    <section class="py-20 bg-default-2">
       <div class="container">
         <div class="row col-12 flex-column-faq">
           <div
