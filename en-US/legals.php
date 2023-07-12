@@ -102,7 +102,7 @@
                 <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mega-menu demos-dropdown dropdown">
-                            <a class="nav-link" href="index.php#conection">Conection</a>
+                            <a class="nav-link" href="index.php#connection">Connection</a>
                         </li>
 
                         <li class="nav-item">
@@ -301,7 +301,7 @@
                         <div class="col-md-4 col-4">
                             <h5 class="quiq-links-footer-title">Learn more</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="index.php#conection">Conection</a></li>
+                                <li><a href="index.php#connection">Connection</a></li>
                                 <li><a href="index.php#assignment">Assignment</a></li>
                                 <li><a href="index.php#integration">Integration</a></li>
                                 <li><a href="index.php#whatsapp">WhatsApp</a></li>

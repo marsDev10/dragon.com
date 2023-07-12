@@ -128,7 +128,7 @@
                 <div class="collapse navbar-collapse navbar-offcanvas" id="offcanvas-menu-home">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mega-menu demos-dropdown dropdown active">
-                            <a class="nav-link" href="#conection">Conection</a>
+                            <a class="nav-link" href="#connection">Connection</a>
                         </li>
 
                         <li class="nav-item">
@@ -297,12 +297,12 @@
     </div>
     <!-- end header -->
 
-    <section class="pt-20 pb-25" id="conection">
+    <section class="pt-20 pb-25" id="connection">
         <div class="container">
             <div class="row justify-content-start mt-10">
                 <div class="col-md-6 col-12 d-flex align-items-center">
                     <div class="content-text-author mt-md-0 mt-14">
-                        <p style="color: #FF6C0E;" class="eyebrow content-text-author_eyebrow">Conections</p>
+                        <p style="color: #FF6C0E;" class="eyebrow content-text-author_eyebrow">Connections</p>
                         <h3 class="coodiv-text-4 font-weight-bold">Quick and hassle-free connection
                         </h3>
                         <p class="content_text_author_description_p">Native connections to all your lead generation
@@ -515,7 +515,7 @@
             </div>
             <div class="section-product-introduction-image-wrapper">
                 <div class="section-product-introduction-background"></div>
-                <img src="https://storage.googleapis.com/dragon-bucket-prod/app/videos/BotGif_2.gif" alt="WAB DRAGONCEM" title="WAB DRAGONCEM" class="section-product-introduction-image" loading="lazy" />
+                <img src="https://storage.googleapis.com/dragon-bucket-prod/app/videos/BotGif_4.gif" alt="WAB DRAGONCEM" title="WAB DRAGONCEM" class="section-product-introduction-image" loading="lazy" />
             </div>
         </div>
     </section>
@@ -929,7 +929,7 @@
                         <div class="col-md-4 col-4">
                             <h5 class="quiq-links-footer-title">Learn more</h5>
                             <ul class="quiq-links-footer-ul">
-                                <li><a href="#conection">Conection</a></li>
+                                <li><a href="#connection">Connection</a></li>
                                 <li><a href="#assignment">Assignment</a></li>
                                 <li><a href="#integration">Integration</a></li>
                                 <li><a href="#whatsapp">WhatsApp</a></li>

@@ -495,7 +495,7 @@
             </div>
             <div class="section-product-introduction-image-wrapper">
                 <div class="section-product-introduction-background"></div>
-                <img src="https://storage.googleapis.com/dragon-bucket-prod/app/videos/BotGif_2.gif" alt="WAB DRAGONCEM" title="WAB DRAGONCEM" class="section-product-introduction-image" loading="lazy" />
+                <img src="https://storage.googleapis.com/dragon-bucket-prod/app/videos/BotGif_4.gif" alt="WAB DRAGONCEM" title="WAB DRAGONCEM" class="section-product-introduction-image" loading="lazy" />
             </div>
         </div>
     </section>
