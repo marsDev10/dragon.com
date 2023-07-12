@@ -1156,7 +1156,7 @@
                     <a> <img src="../img/clients/LogoSadasi.png" alt="SADASI" /> </a>
                 </div>
                 <div class="item">
-                    <a> <img src="../img/clients/LogociudadMaderas.png" alt="CIUDAD MADERAS" /> </a>
+                    <a> <img src="../img/clients/LogoCiudadMaderas.png" alt="CIUDAD MADERAS" /> </a>
                 </div>
                 <div class="item">
                     <a> <img src="../img/clients/LogoDMI.png" alt="GRUPO DMI" /> </a>
