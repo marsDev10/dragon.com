@@ -166,7 +166,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 help-center-header mr-tp-80">
-                    <h5 class="help-center-title"><span>Última revisión: 22-marzo-2021</span>
+                    <h5 class="help-center-title"><span>Última actualización: 22-marzo-2021</span>
                 </div>
             </div>
             <div class="row justify-content-start mr-tp-20">
@@ -277,9 +277,9 @@
                         <li>El sitió web que visitó antes al nuestro.</li>
                     </ul>
 
-                    <p>Desactivar el uso de cookies puede inhabilitar ciertas funciones del portal XXXXXXXXX o no
+                    <p>Desactivar el uso de cookies puede inhabilitar ciertas funciones del portal o no
                         permitir que se muestren en la forma que originalmente fueron diseñados. En caso de que se
-                        prefiera eliminar la información mandada por las cookies de XXXXXXXXXX, puede eliminar los estos
+                        prefiera eliminar la información mandada por las cookies de DragonCEM, puede eliminar los estos
                         archivos al final de cada sesión dentro de su navegador. Información de interés sobre cómo hacer
                         esto puede ser consultada en los sitios principales de cada navegador.</p>
                 </div>

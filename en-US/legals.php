@@ -160,7 +160,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 help-center-header mr-tp-80">
-                    <h5 class="help-center-title"><span>Last revision: may 22, 2023</span>
+                    <h5 class="help-center-title"><span>Last update: may 22, 2023</span>
                 </div>
             </div>
             <div class="row justify-content-start mr-tp-20">
@@ -285,9 +285,9 @@
                     </ul>
 
                     <p>
-                        Disabling the use of cookies may disable certain functions of the XXXXXXXXXXX portal or not allow
+                        Disabling the use of cookies may disable certain functions of the portal or not allow
                         them to be displayed in the way they were originally designed. In case you prefer to delete the information
-                        sent by XXXXXXXXXXXXXXXX cookies, you can delete these files at the end of each session within your browser.
+                        sent by DragonCEM cookies, you can delete these files at the end of each session within your browser.
                         Useful information on how to do this can be consulted on the main sites of each browser.</p>
                 </div>
             </div>
