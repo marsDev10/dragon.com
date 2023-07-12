@@ -287,7 +287,7 @@
                     <p>
                         Disabling the use of cookies may disable certain functions of the portal or not allow
                         them to be displayed in the way they were originally designed. In case you prefer to delete the information
-                        sent by www.dragoncem.com cookies, you can delete these files at the end of each session within your browser.
+                        sent by <a href="http://www.dragoncem.com">www.dragoncem.com</a> cookies, you can delete these files at the end of each session within your browser.
                         Useful information on how to do this can be consulted on the main sites of each browser.</p>
                 </div>
             </div>

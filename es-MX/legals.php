@@ -279,8 +279,8 @@
 
                     <p>Desactivar el uso de cookies puede inhabilitar ciertas funciones del portal o no
                         permitir que se muestren en la forma que originalmente fueron diseñados. En caso de que se
-                        prefiera eliminar la información mandada por las cookies de www.dragoncem.com, puede eliminar los estos
-                        archivos al final de cada sesión dentro de su navegador. Información de interés sobre cómo hacer
+                        prefiera eliminar la información mandada por las cookies de <a href="http://www.dragoncem.com">www.dragoncem.com</a>, 
+                        puede eliminar los estos archivos al final de cada sesión dentro de su navegador. Información de interés sobre cómo hacer
                         esto puede ser consultada en los sitios principales de cada navegador.</p>
                 </div>
             </div>
