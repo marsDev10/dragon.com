@@ -557,7 +557,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="../img/headers/HeaderSmart.png" />
+                    <img src="../img/headers/HeaderSmartfit.png" />
 
                 </div>
 
@@ -726,7 +726,6 @@
                             <img src="../img/evas/Irving.png" alt="EVANGELIST PRODUCT" title="EVANGELIST PRODUCT">
                         </div>
                     </div>
-
                     <div class="carousel-cell d-none">
                         <div class="carousel-customrs-holder">
                             <img src="../img/evas/Leo.png" alt="EVANGELIST PRODUCT" title="EVANGELIST PRODUCT">
