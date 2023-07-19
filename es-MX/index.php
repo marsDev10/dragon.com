@@ -534,7 +534,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="../img/headers/HeaderSmart.png" />
+                    <img src="../img/headers/HeaderSmartfit.png" />
 
                 </div>
 
