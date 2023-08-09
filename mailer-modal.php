@@ -15,7 +15,12 @@
             echo "Oops! There was a problem with your submission. Please complete the form and try again.";
             exit;
         }
-        $recipient = "dragoncem@in.parseur.com";
+
+        if($origen == 'pt-BR'){
+            $recipient = "brasaas.dragoncem@in.parseur.com";
+        }else{
+            $recipient = "dragoncem@in.parseur.com";
+        }
 
         $subject = "New contact from dragoncem.com";
 
